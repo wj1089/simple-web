@@ -1,0 +1,28 @@
+.nav-logo{
+    font-weight: 700;
+    color: #000000;
+    float: left;
+}
+
+.nav-bar{
+    min-width: 1200px;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0,0,0,0);
+    overflow: hidden;
+    border: 1px solid;
+}
+.nav-link{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item{
+    font-weight: 700;
+    color: #ffffff;
+}
