@@ -1,28 +1,134 @@
-.nav-logo{
-    font-weight: 700;
-    color: #000000;
-    float: left;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+/* nav */
+.nav-dropDwon {
+  min-width: 1200px;
+  height: 150px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid;
+  transition: 0.4s;
 }
 
-.nav-bar{
-    min-width: 1200px;
-    min-height: 50px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: rgba(0,0,0,0);
-    overflow: hidden;
-    border: 1px solid;
-}
-.nav-link{
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
+.nav-dropDwon:after {
+  content: '';
+  clear: both;
+  display: table;
 }
 
-.nav-item{
-    font-weight: 700;
-    color: #ffffff;
+.assd {
+  flex: 1;
+  justify-content: right;
+}
+
+.nav-linkList {
+  list-style: none;
+  list-style: none;
+  cursor: pointer;
+  float: right;
+}
+.nav-menu {
+  width: auto;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-linkItem {
+  font-weight: 700;
+  color: #ffffff;
+}
+.nav-source {
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+}
+
+.nav-dropDwon .nav-linkList .nav-linkItem {
+  float: left;
+  display: inline-block;
+  /* background-color: lightgray; */
+  margin: 0 5px;
+}
+
+.nav-dropDwon .nav-linkList .nav-linkItem a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+}
+
+/* ul */
+.nav-dropDwon .nav-linkList .nav-menu {
+  position: absolute;
+  top: 74px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.3s;
+  width: 120px;
+  /* background-color: peachpuff; */
+}
+
+.nav-dropDwon .nav-linkList .nav-linkItem a {
+  color: white;
+  font-size: 18px;
+  padding: 8px 15px;
+  /* color: red; */
+}
+
+.nav-dropDwon .nav-linkList .nav-linkItem a:hover {
+  color: red;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #33ffff, #66ffff;
+}
+
+.nav-dropDwon .nav-linkList .nav-linkItem:hover > .nav-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-dropDwon .nav-linkList .nav-menu .nav-source {
+  position: relative;
+  margin: 0px;
+  width: 15px;
+  height: 30px;
+  float: none;
+  display: list-item;
+}
+
+.nav-dropDwon .nav-linkList .nav-menu .nav-source {
+  position: relative;
+}
+
+.nav-bar .nav-link {
+  position: relative;
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.nav-bar .nav-link .nav-item {
+  float: left;
+  display: inline-block;
+  background-color: black;
+  margin: 0 5px;
+}
+
+.nav-logoSize {
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 900;
+  color: #000000;
+  float: left;
+  display: flex;
+}
+
+.nav-logoSize .nav-logo {
+  width: 233px;
+  height: 50px;
 }
