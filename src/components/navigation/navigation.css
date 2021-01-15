@@ -1,18 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-}
-/* nav */
 .nav-dropDwon {
   min-width: 1200px;
   height: 150px;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid;
   transition: 0.4s;
+  display: flex;
 }
 
 .nav-dropDwon:after {
@@ -20,17 +11,19 @@ body {
   clear: both;
   display: table;
 }
-
-.assd {
-  flex: 1;
-  justify-content: right;
+.nav-barArea{
+  width: 100%;
+  height: 50px;
 }
 
 .nav-linkList {
+  height: 50px;
   list-style: none;
   list-style: none;
   cursor: pointer;
   float: right;
+  align-items: center;
+  display: flex;
 }
 .nav-menu {
   width: auto;
@@ -46,12 +39,12 @@ body {
   font-weight: 700;
   color: #ffffff;
   border: none;
+  width: 284px;
 }
 
 .nav-dropDwon .nav-linkList .nav-linkItem {
   float: left;
   display: inline-block;
-  /* background-color: lightgray; */
   margin: 0 5px;
 }
 
@@ -62,28 +55,26 @@ body {
   padding: 8px 15px;
 }
 
-/* ul */
 .nav-dropDwon .nav-linkList .nav-menu {
   position: absolute;
-  top: 74px;
+  margin-top: 10px;
   opacity: 0;
   visibility: hidden;
   transition: top 0.3s;
   width: 120px;
-  /* background-color: peachpuff; */
 }
 
 .nav-dropDwon .nav-linkList .nav-linkItem a {
   color: white;
   font-size: 18px;
   padding: 8px 15px;
-  /* color: red; */
 }
 
 .nav-dropDwon .nav-linkList .nav-linkItem a:hover {
   color: red;
   border-radius: 5px;
   box-shadow: 0 0 5px #33ffff, #66ffff;
+  text-decoration: underline;
 }
 
 .nav-dropDwon .nav-linkList .nav-linkItem:hover > .nav-menu {
@@ -100,8 +91,10 @@ body {
   display: list-item;
 }
 
-.nav-dropDwon .nav-linkList .nav-menu .nav-source {
+.nav-dropDwon .nav-linkList .nav-menu .nav-source .busi-item{
   position: relative;
+  width: 284px;
+  background-color: aqua;
 }
 
 .nav-bar .nav-link {

@@ -1,134 +1,43 @@
-
-body {
-	text-align: center;
-	margin: auto !important;
-    float : none !important;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Noto Sans KR, sans-serif;
-	-ms-user-select: none;
-	-moz-user-select: -moz-none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-    user-select: none;	
-    background-position: left;
-    background-repeat: no-repeat;
-
-}
-
-
-* {
-	-ms-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-khtml-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-a{
-	text-decoration: none;
-    outline: none;
-    color: black;
-}
-
-
-.a:hover{
-	color: none;
-	text-decoration: none;
-    outline: none;
-}
-
-
-header{
-    position: fixed;
-    display: flex;
-    min-width: 1200px;
-    background-position:right center;
-    background-color: rgba(0,0,0,0);
-    z-index: 1;
-}
-
-footer{
-    position: absolute;
-    min-width: 1200px;
-    height: 202px;
-    background-position:right center;
-    align-items: center;
-    justify-content: center;
-}
-
 /*------------------------------------------
   Responsive Grid Media Queries - 1920, 1200, 1020
    1920-1024   - desktop (default grid)
    1200        - center area
 --------------------------------------------*/
-/* For desktop: */
-/* @media only screen and (min-width: 1200px){
-	.clearBoth{
-		clear : both;
-	} */
-	
-.full-screen-modal{
-    position: relative;
-    display: flex;
-    min-width: 1200px;
-    width: 100%;
-    justify-content:center;
-    align-content:center;
-    background-position:center;
-    border: 1px solid;
-
-}
 
 /* OutSilde Layout */
-.screen-layouta{
-    position: absolute;
-    width: 100%;
-    height: 3406px;
-    border: 1px solid;
-    background-color: lightyellow;
 
-}
-
-.full-screen-modal .lay-top{
+.full-screen .lay-top{
     width: 100%;
     height: 568px;
-    border: 1px solid;
     background-size: cover;
     background-position: center center;
     background-image: url("../../resourse/mainphoto/mainbanner_1.png");
-
 }
 
-.full-screen-modal .lay-mid-first{
+.full-screen .lay-company-first{
     width: 100%;
     height: 614px;
-    border: 1px solid;
-    background-color: lightgray;
-
 }
-.full-screen-modal .lay-mid-second{
+.full-screen .lay-company-second{
     width: 100%;
     height: 813px;
-    border: 1px solid;
-    background-color: lightcoral;
-
+    background-color: #f5f5f5;
 }
 
-.full-screen-modal .lay-mid-third{
+.full-screen .lay-company-third{
     width: 100%;
     height: 748px;
-    background-color: white;
-    border: 1px solid;
-
+    background-image: url("../../resourse/aboutphoto/ceocomment_bg.png");
+    border: solid 2px #1433fb;
+    background-position: center;
+    background-size: cover;
 }
-.full-screen-modal .lay-mid-forth{
+
+.full-screen .lay-company-forth{
     width: 100%;
     height: 460px;
-    background-color: red;
-    border: 1px solid;
-
 }
-.full-screen-modal .lay-mid-last{
+.full-screen .lay-company-last{
     width: 100%;
     height: 203px;
     background-color: #1e1e1e;
@@ -136,58 +45,7 @@ footer{
 
 }
 
-/* .full-screen-cp .lay-mid-last{
-    position: absolute;
-    width: 100%;
-    height: 140px;
-    background-color: #343434;
-    border: 1px solid;
-    background-color: lightyellow;
-} */
-
-
-
 /* inSilde-center Layout */
-.screen-centerArea{
-    position: relative;
-    min-width:  1200px;
-    height: 3406px;
-    background-position:right center;
-    border: 1px solid;
-
-}
-.center-imageArea{
-    position: relative;
-    width: 100%;
-    height: 568px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid;
-    display:flex
-}
-.center-topWord{
-    width: 100%;
-    display: block;
-}
-.center-selectBar{
-    width: 100%;
-    height: 68px;
-    background-color: blanchedalmond;
-    display: flex;
-}
-.select-Button1{
-    width: 33%;
-    background-color: green;
-}
-.select-Button2{
-    width: 33%;
-    background-color: white;
-}
-.select-Button3{
-    width: 33%;
-    background-color: lightgray;
-}
 
 .center-smallText{
     margin: 30px 0 0 0;
@@ -201,14 +59,8 @@ footer{
     color: #424242;
 }
 
-
-
-
-
-
 .center-aboutArea{
     height: 614px;
-    background-color: aqua;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -235,7 +87,6 @@ footer{
 
 .center-historyArea{
     height: 813px;
-    background-color: lightblue;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -246,18 +97,18 @@ footer{
 .history-imgSize{
     width: 610px;
     height: 532px;
-    /* margin: 38.5px 0 0;
-    padding: 23px 45px 21.2px 18px; */
     border: solid 2px #1433fb;
 }
 
 
 .center-commentArea{
     height: 748px;
-    background-color: mediumaquamarine;
     justify-content: center;
     align-items: center;
     display: flex;
+    /* background-image: cover;
+    background-position: center center;
+    background-image: url("../../resourse/aboutphoto/ceocomment_bg.png"); */
 }
 .center-commentText{
     font-family: MalgunGothic;
@@ -281,28 +132,61 @@ footer{
     margin: 60px 61px 0 217px;
     border: solid 2px #1433fb;
 }
+.partners-slideArea{
+    width: 1104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-btn-left{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin: 21px 0 21px 0;
+    padding: 12px;
+    opacity: 0.7;
+    background-color: #000000;
+    float: left;
+}
+
+.slide-btn-right{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin: 21px 0 21px 0;
+    padding: 12px;
+    opacity: 0.7;
+    background-color: #000000;
+    float: right;
+}
 
 
+.partners-iconList{
+    height: 90px;
+    width: 997px;
+    display: flex;
+    overflow: hidden;
+}
+.partners-icon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 270px;
+    height: 90px;
+    padding: 0 75px;
+}
+.partners-iconImg{
+    width: 120px;
+    height: 90px;
+    border: solid 2px #1433fb;
+}
 
 .center-partnerArea{
     height: 460px;
-    background-color: lightblue;
     justify-content: center;
     align-items: center;
     display: flex;
-}
-
-.underLine-area{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.topic-underLine{
-    width: 36px;
-    margin: 20.5px 0 37.5px 0;
-    border: solid 2px #d40b0b;
-    background-color: #d40b0b;
 }
 
 /* center main content */
@@ -319,11 +203,6 @@ footer{
 .content-logoSizea{
     width: 73px;
     height: 69px;
-    /* margin: 129px 923px 2px 924px; */
     border: solid 2px #1433fb;
 }
 
-
-
-
-/* } */

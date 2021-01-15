@@ -1,13 +1,190 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+* {
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+	text-align: center;
+	margin: auto !important;
+    float : none !important;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Noto Sans KR, sans-serif;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+    user-select: none;	
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    position: fixed;
+    display: flex;
+    min-width: 1200px;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    background-position:right center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 202px;
+    align-items: center;
+    justify-content: center;
+    background-position:right center;
+    background-color: #222222;
+}
+
+
+a{
+	text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+
+.a:hover{
+	color: none;
+	text-decoration: none;
+    outline: none;
+}
+
+.full-screen{
+    position: relative;
+    display: flex;
+    min-width: 1200px;
+    width: 100%;
+    justify-content:center;
+    align-content:center;
+    background-position:center;
+}
+
+.full-screen-dark{
+    position: relative;
+    display: flex;
+    min-width: 1200px;
+    width: 100%;
+    justify-content:center;
+    align-content:center;
+    background-position:center;
+}
+
+
+.screen-layout{
+    position: absolute;
+    width: 100%;
+}
+
+.screen-layout-dark{
+    position: absolute;
+    width: 100%;
+    /* height: 2393px; */
+    border: 1px solid;
+    font-family: MalgunGothic;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.full-screen .lay-top{
+    width: 100%;
+    height: 568px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("./resourse/mainphoto/mainbanner_1.png");
+}
+
+.full-screen-dark .lay-top-dark{
+    width: 100%;
+    height: 418px;
+    background-color: #222222;
+}
+
+.screen-centerArea{
+    position: relative;
+    min-width:  1200px;
+    width:  1200px;
+    background-position:right center;
+    justify-content: center;
+    align-content: center;
+}
+
+.center-imageArea{
+    position: relative;
+    width: 100%;
+    height: 568px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display:flex
+}
+.center-topWord{
+    width: 100%;
+    display: block;
+}
+
+.center-selectBar{
+    width: 100%;
+    display: flex;
+
+}
+.select-Button{
+    width: 33%;
+    height: 68px;
+    display: flex;
+    font-family: MalgunGothic;
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.09;
+    letter-spacing: normal;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: #ffffff;
+}
+.disable-Button{
+    width: 33%;
+    height: 68px;
+    display: flex;
+    font-family: MalgunGothic;
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.09;
+    letter-spacing: normal;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+
+
+.igre-img{
+    width: 600px;
+  height: 697px;
+  border: solid 1px #1433fb;
 }

@@ -1,0 +1,291 @@
+/*------------------------------------------
+Responsive Grid Media Queries - 1920, 1200, 1020
+1920-1024   - desktop (default grid)
+1200        - center area
+--------------------------------------------*/
+/* For desktop: */
+/* inSilde-center Layout */
+.screen-center-es{
+position: relative;
+min-width:  1200px;
+background-position:right center;
+}
+.es-topText{
+width: 822px;
+height: 45px;
+}
+
+.es-firstWord{
+width: 822px;
+height: 45px;
+margin: 0 0 8px;
+font-family: MalgunGothic;
+font-size: 34px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.32;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+}
+
+.es-secondWord{
+width: 562px;
+height: 24px;
+margin: 8px 130px 0;
+font-family: MalgunGothic;
+font-size: 18px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 2.33;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+}
+
+.center-imgArea-es{
+width: 100%;
+height: 418px;
+justify-content: center;
+align-items: center;
+text-align: center;
+display:flex;
+}
+
+/* center main content */
+.main-content-es{
+width: 1200px;
+/* height: 1772px; */
+padding-top: 72px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.content-logoSize-es{
+width: 73px;
+height: 69px;
+border: solid 2px #1433fb;
+}
+
+
+/* ES, O2O */
+.center-es{
+width: 1200px;
+/* height: 1772px; */
+display: flex;
+margin: 72px 0 15px 0;
+}
+
+
+.center-left{
+    margin-bottom: 150px;
+}
+
+.center-right{
+width: 570px;
+margin: 0 0 150px 30px;
+}
+
+
+.discrip-title{
+}
+
+
+.discrip-foot{
+height: 130px;
+align-items: center;
+padding-top: 36px;
+}
+
+
+.foot-title{
+display: flex;
+padding-top: 12px;
+}
+
+.foot-date{
+height: 18px;
+margin-right: 22px;
+font-family: MalgunGothic;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: left;
+color: #bdbdbd;
+}
+
+.foot-dateWord{
+/* width: 73px; */
+height: 18px;
+/* margin: 36px 39px 12px 9px; */
+font-family: MalgunGothic;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: left;
+color: #757575;
+}
+
+.item-topic{
+height: 17px;
+font-family: MalgunGothic;
+font-size: 13px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: left;
+color: #9e9e9e;
+}
+
+.docu-topic{
+width: 391px;
+margin-top: 8px;
+font-family: MalgunGothic;
+font-size: 28px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: #000000;
+}
+
+.discrip-body{
+width: 570px;
+margin: 33.5px 360px 36px 0;
+font-family: MalgunGothic;
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #565656;
+}
+
+
+.underLine-area{
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+.topic-underLine{
+width: 36px;
+margin: 20.5px 0 0 0;
+border: solid 2px #d40b0b;
+background-color: #d40b0b;
+}
+
+
+.underLine-area-map{
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+
+.topic-underLine-map{
+width: 36px;
+margin: 20.5px 0 30px 0;
+border: solid 2px #cccccc;
+}
+
+
+.underLine-area-es{
+justify-content:  flex-start;
+align-items: center;
+}
+
+.topic-underLine-es{
+width: 36px;
+margin: 20.5px 0 30px 0;
+border: solid 2px #d40b0b;
+background-color: #d40b0b;
+}
+
+.Link-icons{
+    /* width: 40px; */
+    height: 40px;
+    display: flex;
+}
+.icon-round{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 11px;
+    border-radius: 80px;
+    background-color: #e0e0e0;
+    margin: 0 16px 0 0;
+    color: #9e9e9e;
+}
+
+.sigleCamera-left{
+    width: 600px;
+    height: 1445px;
+}
+.cameraSolu-img{
+    width: 600px;
+  height: 371px;
+  border: solid 1px #1433fb;
+}
+
+.motion-img{
+    width:600px;
+    height: 878px;
+    border: solid 1px #1433fb;
+}
+
+.smartCar-img{
+    width: 600px;
+    height: 1317px;
+    border: solid 1px #1433fb;
+}
+.projector-img{
+    width: 600px;
+    height: 439px;
+    border: solid 1px #1433fb;
+}
+.liveShow-img{
+    width: 600px;
+    height: 1555px;
+    border: solid 1px #1433fb;
+}
+
+.igre-img{
+    width: 600px;
+    height: 697px;
+    border: solid 1px #1433fb;
+}
+.pefem-img{
+    width: 600px;
+    height: 862px;
+    border: solid 1px #1433fb;
+}
+.pefemCat-img{
+    width: 600px;
+    height: 884px;
+    border: solid 1px #1433fb;
+}
+
+
+
+
+
+
+
+

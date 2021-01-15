@@ -1,56 +1,37 @@
 import React from 'react';
-import Nav from '../navigation/Nav';
 import Footer from '../footer/Footer';
-import './company.css';
-// import '../main/home.css'
+import './business.css';
 import '../footer/footer.css';
 
-
-const Company = () => {
+const Business = () => {
 
     return (
       <>
-        <div className="full-screen-modal">
-          <div className="screen-layouta">
-            <div className="lay-top">
-              <h1>image</h1>
+        <div className="full-screen-busi">
+          <div className="screen-layout-busi">
+            <div className="lay-top-busi" />
+
+            <div className="lay-mid-first-busi">
+              <h1>EMBEDDED SOLUTION</h1>
             </div>
-            <div className="lay-mid-first">
-              <h1>About us</h1>
-            </div>
-            <div className="lay-mid-second">
-              <h1>History</h1>
-            </div>
-            <div className="lay-mid-third">
-              <h1>Ceo comment</h1>
-            </div>
-            <div className="lay-mid-forth">
-              <h1>Partners</h1>
-            </div>
-            <div className="lay-mid-last">
-              <h1>Footer</h1>
+
+          </div>
+
+          <div className="screen-center-busi">
+            <div className="center-imgArea-busi" />
+            <div className="main-content-busi">
+              <div className="center-business">
+                <div>
+                  asd
+                </div>
+              </div>
             </div>
           </div>
 
-
-
-          <div className="screen-centera">
-            <div className="outSilde-imagea" />
-            <header>
-              <Nav />
-            </header>
-
-            <main className="main-contenta">
-              <h1>qq</h1>
-            </main>
-          
-            <footer>
-              <Footer />
-            </footer>
-          </div>
         </div>
+        <Footer />
       </>
     );
 };
 
-export default Company;
+export default Business;

@@ -1,0 +1,103 @@
+/*------------------------------------------
+Responsive Grid Media Queries - 1920, 1200, 1020
+1920-1024   - desktop (default grid)
+1200        - center area
+--------------------------------------------*/
+
+/* .full-screen .lay-topb{
+    width: 100%;
+    height: 568px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../../resourse/mainphoto/mainbanner_1.png");
+} */
+
+.full-screen .lay-mid-firstb{
+    width: 100%;
+    height: 413px;
+
+}
+.full-screen .lay-mid-secondb{
+    width: 100%;
+    height: 413px;
+}
+
+.full-screen .lay-mid-thirdb{
+    width: 100%;
+    height: 810px;
+}
+.full-screen .lay-mid-forthb{
+    width: 100%;
+    height: 203px;
+}
+.full-screen .lay-mid-lastb{
+    width: 100%;
+    height: 203px;
+}
+
+
+/* inSilde-center Layout */
+.screen-centerArea{
+    position: relative;
+    min-width:  1200px;
+    width:  1200px;
+    background-position:right center;
+    justify-content: center;
+    align-content: center;
+}
+/* .center-patent{
+    position: absolute;
+    width: 100%;
+    height: 2963px;
+} */
+.patent-topText{
+    padding: 120px;
+    height: 330px;
+}
+
+.center-selectBtnb{
+    width: 100%;
+    height: 68px;
+    background-color: blanchedalmond;
+}
+
+
+/* center content */
+.center-patentArea{
+    height: 2963px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.patent-imgArea{
+    width: 1200px;
+}
+
+.patent-img-row{
+    display: flex;
+    width: 1197px;
+    height: 456px;
+    margin: 20px 0 20px;
+    background-color: #ffffff;
+}
+
+.patent-imgSize{
+    display: flex;
+    background-color: #ffffff;
+}
+.icon-outLine{
+    width: 295px;
+    height: 456px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.icon-size{
+    width: 260px;
+    height: 359px;
+    margin: 0 0 12px;
+    border: solid 2px #1433fb;
+    background-color: #eeeeee;
+}
+

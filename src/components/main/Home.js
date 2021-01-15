@@ -1,39 +1,33 @@
 import React from 'react';
-import Nav from '../navigation/Nav';
+// import {NavLink} from "react-router-dom";
 import Footer from '../footer/Footer';
 import './home.css';
-import '../footer/footer.css';
-
+import '../../index.css';
 import insideBotmImg from '../../resourse/mainphoto/bg_main_geometry.png'
 import topLogoImg from '../../resourse/mainphoto/logo_mainbanner.png'
 import btobImg from '../../resourse/mainphoto/icon_b2b.png'
 import patentImg from '../../resourse/mainphoto/icon_patent.png'
 import nextBtn from '../../resourse/mainphoto/icon_mainnext.png'
 
+import phone from '../../resourse/mark/phone.png'
+import mail from '../../resourse/mark/mail.png'
+
 const Home = () => {
   
   return ( 
     <>
       <div className="full-screen">
-
         <div className="screen-layout">
           <div className="lay-top">
             <div className="lay-topImg" />
             <div className="lay-topImgNext" />
           </div>
-          <div className="lay-middle" />
-          <div className="lay-bottom">
-            <div className="lay-bottom2" />
-          </div>
+          <div className="lay-home-second" />
         </div>
 
-        <div className="screen-center">
+        <div className="screen-centerArea">
           <div className="outSilde-image" />
-          <header>
-            <Nav />
-          </header>
-
-          <main className="main-content">
+          <div className="main-content">
             <div className="content-area">
               <div className="content-topText">
                 <div className="content-logoImg">
@@ -48,7 +42,7 @@ const Home = () => {
 
                   <div className="bToCorB">
                     <div className="bToCorB-textArea">
-                      <p className="bTob-topic">B2B</p>
+                      <p className="bTob-topic">EMBEDDED SOLUTION</p>
                       <p className="bTob-words">
                         실현에 얼마나 이상의 반짝이는 이것이다. 같이 품으며, 
                         <br /> 희망의 전자만홍이 이상, 인간의 아니한 피다.
@@ -95,19 +89,12 @@ const Home = () => {
                   </div>
                   <div className="contect">
                     <div className="contect-wrapper">
-                      <div>
-                        {/* <img src={} /> */}
-                        <p className="content-imgSize" />
-                      </div>
+                      <img className="home-icon" src={phone} alt="home-phone" />
                       <p className="content-communi">Office or FAX</p>
                       <p className="content-detail">Office: -82 2 414 7077</p>
                       <p className="content-detail">FAX: -82 2 414 7079</p>
                       <br />
-
-                      <div>
-                        {/* <img src={} /> */}
-                        <p className="content-imgSize" />
-                      </div>
+                      <img className="home-icon" src={mail} alt="home-mail" />
                       <p className="content-communi">EMAIL</p>
                       <p className="content-detail">RND@MORIAHTOWN.COM</p>
                     </div>
@@ -115,13 +102,10 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </main>
-          
-          <footer>
-            <Footer />
-          </footer>
+          </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
