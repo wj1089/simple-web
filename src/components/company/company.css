@@ -1,9 +1,3 @@
-/*------------------------------------------
-  Responsive Grid Media Queries - 1920, 1200, 1020
-   1920-1024   - desktop (default grid)
-   1200        - center area
---------------------------------------------*/
-
 /* OutSilde Layout */
 
 .full-screen .lay-top{
@@ -20,7 +14,7 @@
 }
 .full-screen .lay-company-second{
     width: 100%;
-    height: 813px;
+    height: 3150px;
     background-color: #f5f5f5;
 }
 
@@ -28,9 +22,9 @@
     width: 100%;
     height: 748px;
     background-image: url("../../resourse/aboutphoto/ceocomment_bg.png");
-    border: solid 2px #1433fb;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../../resourse/aboutphoto/ceocomment_bg.png");
 }
 
 .full-screen .lay-company-forth{
@@ -47,6 +41,7 @@
 
 /* inSilde-center Layout */
 
+
 .center-smallText{
     margin: 30px 0 0 0;
     font-size: 16px;
@@ -60,11 +55,11 @@
 }
 
 .center-aboutArea{
-    height: 614px;
+    height: 610px;
     justify-content: center;
     align-items: center;
     display: flex;
-
+    padding-top: 14px;
 }
 .center-about{
     justify-content: center;
@@ -84,31 +79,25 @@
     color: #000000;
 }
 
-
 .center-historyArea{
-    height: 813px;
+    height: 3100px;
     justify-content: center;
     align-items: center;
-    display: flex;
+    padding-top: 150px;
 }
-.history-imgArea{
 
-}
 .history-imgSize{
     width: 610px;
     height: 532px;
-    border: solid 2px #1433fb;
 }
 
 
 .center-commentArea{
     height: 748px;
+    padding-top: 124px;
     justify-content: center;
     align-items: center;
     display: flex;
-    /* background-image: cover;
-    background-position: center center;
-    background-image: url("../../resourse/aboutphoto/ceocomment_bg.png"); */
 }
 .center-commentText{
     font-family: MalgunGothic;
@@ -129,8 +118,7 @@
 .sign-area{
     width: 184px;
     height: 40px;
-    margin: 60px 61px 0 217px;
-    border: solid 2px #1433fb;
+    margin-top : 60px;
 }
 .partners-slideArea{
     width: 1104px;
@@ -139,47 +127,16 @@
     justify-content: center;
 }
 
-.slide-btn-left{
-    position: relative;
-    width: 48px;
-    height: 48px;
-    margin: 21px 0 21px 0;
-    padding: 12px;
-    opacity: 0.7;
-    background-color: #000000;
-    float: left;
-}
-
-.slide-btn-right{
-    position: relative;
-    width: 48px;
-    height: 48px;
-    margin: 21px 0 21px 0;
-    padding: 12px;
-    opacity: 0.7;
-    background-color: #000000;
-    float: right;
-}
-
-
-.partners-iconList{
-    height: 90px;
-    width: 997px;
-    display: flex;
-    overflow: hidden;
-}
-.partners-icon{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: 270px;
-    height: 90px;
-    padding: 0 75px;
-}
 .partners-iconImg{
     width: 120px;
     height: 90px;
-    border: solid 2px #1433fb;
+}
+
+.partners-iconImgCenter{
+    width: 120px;
+    height: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .center-partnerArea{
@@ -189,20 +146,226 @@
     display: flex;
 }
 
-/* center main content */
-.main-contenta{
-    width: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 0;
+  }
+  
+  /* 가운데 라인 */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #cccccc;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+  }
+  
+  /* Container around content */
+  .container {
+    padding-bottom: 112px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  .containerLast {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+
+
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* 히스토리 왼쪽 선 */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 27px;
+    width: 0;
+    z-index: 1;
+    right: 12px;
+    border: medium solid white;
+    border-width: 1px 0 0 28px ;
+    border-color: #D40B0B;
+  }
+  
+  /* 히스토리 오른쪽 선 */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 27px;
+    width: 0;
+    z-index: 1;
+    left: 12px;
+    border: medium solid white;
+    border-width: 0 0 1px 28px;
+    border-color: #D40B0B;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -12px;
+  }
+  
+
+  .contentRight {
+    padding-left: 55px;
+    padding-top: 17px;
+    position: relative;
+    text-align: left;
+  }
+
+  /* The actual content */
+  .contentLeft {
+    padding-right: 55px;
+    padding-top: 17px;
+    position: relative;
+    text-align: right;
+  }
+  
+  .yearText {
+    color: #D40B0B;
+    font-size: 18px;
+    font-weight: bold;
+    width: 55px;
+  }
+
+  .historyTitle {
+    font-weight: bold;
+    color: #424242;
+    font-size: 16px;
+  }
+
+  .historyTopTitle {
+    font-weight: bold;
+    color: #424242;
+    font-size: 16px;
+    padding-top: 2px;
+  }
+
+  .historySub {
+    color: #565656;
+    font-size: 14px;
+  }
+
+  
+  .historyTopSub {
+    color: #565656;
+    font-size: 14px;
+    padding-top: 4px;
+  }
+
+  .hitoryInnerLeftDiv {
+    padding-right: 55px;
+  }
+
+  .hitoryInnerRightDiv {
+    padding-left: 55px;
+  }
+
+  /* 가운데 점 2010*/
+
+  .containerNoitem {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    margin-top: -50px;
+    padding-bottom: 180px;
+  }
+
+
+  .containerNoitem::after {
+    content: '2010';
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 70px;
     text-align: center;
-    border: 1px solid;
+    color: #ffffff;
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    right: -42px;
+    background-color: #D40B0B;
+    border: 4px solid #D40B0B;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
 
-}
 
-.content-logoSizea{
-    width: 73px;
-    height: 69px;
-    border: solid 2px #1433fb;
-}
+  /* 가운데 점 2020*/
 
+  .containerNoitemTop {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    margin-top: -50px;
+    padding-bottom: 180px;
+  }
+
+  .containerNoitemTop::after {
+    content: '2020';
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    right: -42px;
+    background-color: #D40B0B;
+    border: 4px solid #D40B0B;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  /* 점 */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -12px;
+    background-color: #D40B0B;
+    border: 4px solid #D40B0B;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  /* 마지막 점 */
+  .containerLast::after {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 60px;
+    right: -22px;
+    background-color: transparent;
+    border: 1px solid #D40B0B;
+    color: #D40B0B;
+    top: 7px;
+    border-radius: 50%;
+    z-index: 1;
+    content: "●";
+    text-align: center;
+    line-height: 25px;
+  }

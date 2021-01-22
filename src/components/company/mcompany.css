@@ -1,0 +1,203 @@
+/* OutSilde Layout */
+/* 각페이지 고유 가변사이즈 */
+  .lay-mobile-first-about{
+    width: 100%;
+    height: 561px;
+  }
+  
+  .lay-mobile-second-about{
+    width: 100%;
+    height: 2179px;
+    /* border: 1px solid;
+    background-color: #f5f5f5; */
+    z-index: 2;
+  }
+  
+  .lay-mobile-third-about{
+    width: 100%;
+    height: 991.5px;
+    background-size: cover;
+    background-image: url("../../resourse/m.about/mbg_ceocomment.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .lay-mobile-forth-about{
+    width: 100%;
+    height: 386.5px;
+  }
+
+
+
+/* 메인 센터 내용 */
+.m-center-contentArea-company{
+    padding: 0px 16px 0 16px;
+  }
+
+
+.m-center-imgtitle{
+    width: 100%;
+    height: 255px;
+    font-size: 22px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: MalgunGothic;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+
+/* inSilde-center Layout */
+
+.m-center-topspaceArea{
+    padding-top: 70px;
+    /* height: 815px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.m-center-aboutArea{
+    height: 561px;
+    padding-top:70px;
+    width: auto;
+}
+
+.m-center-aboutText{
+    margin-top: 32.5px;
+    font-family: MalgunGothic;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.m-center-coreArea{
+    height: 1435px;
+    padding: 70px 14px 0 14px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+
+.m-history-imgArea{
+    margin-top: 27px;
+    border: solid 5px #00b800;
+}
+
+
+.m-history-imgSize{
+    width: 297px;
+    height: 1907px;
+    
+    background-size: cover;
+    background-image: url(../../resourse/m.about/mhistory.png);
+}
+
+
+.m-center-commentArea{
+    height: 991.5px;
+    padding: 70px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-center-commentText{
+    margin-top: 32.5px;
+    font-family: MalgunGothic;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.76;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+
+.m-partners-slideArea{
+    width: 1104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-slide-btn-left{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin: 21px 0 21px 0;
+    padding: 12px;
+    opacity: 0.7;
+    float: left;
+}
+
+.m-slide-btn-right{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin: 21px 0 21px 0;
+    padding: 12px;
+    opacity: 0.7;
+    /* background-color: #000000; */
+    float: right;
+}
+
+
+.m-partners-iconList{
+    height: 90px;
+    width: 997px;
+
+    display: flex;
+    overflow: hidden;
+}
+.m-partners-icon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 270px;
+    height: 90px;
+    padding: 0 75px;
+}
+.m-partners-iconImg{
+    width: 120px;
+    height: 90px;
+}
+
+.m-center-partnerArea{
+    height: 386px;
+    padding: 79px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.m-parter-logoArea{
+    width: 100%;
+    margin-top: 32.5px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}
+
+
+.m-parter-logos{
+    width: 264px;
+    height: 90px;
+    margin: 0 31px 0 31px;
+    background-color: #ffffff;
+    border: 1px solid;
+}

@@ -17,8 +17,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
     justify-content:center;
     align-content:center;
     background-position:center;
-    border: 1px solid;
-
 }
 
 /* OutSilde Layout */
@@ -26,7 +24,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
     position: absolute;
     width: 100%;
     height: 1665px;
-    border: 1px solid;
 }
 
 .lay-top-busy{
@@ -75,7 +72,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-
 }
 .imgText-p{
     height: 37px;
@@ -119,7 +115,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 .img-busy{
     width: 280px;
     height: 280px;
-    border: solid 1px #1433fb;
 }
 
 
@@ -136,29 +131,14 @@ Responsive Grid Media Queries - 1920, 1200, 1020
     background-color: #ffffff;
 }
 
-.img-busy{
-    width: 280px;
-    height: 280px;
-    margin: 8px;
-    border: solid 2px #1433fb;
-}
 .img-link-detail{
     width: 280px;
     height: 280px;
 }
 .text-busy{
-    /* width: 234px; */
-    /* height: 50px; */
-    margin: 0 23px 0;
-    font-family: MalgunGothic;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
+    margin: 12px 23px 0;
     line-height: 1.44;
-    letter-spacing: normal;
     text-align: center;
-    color: #000000;
 }
 .text-busy-title{
     font-family: MalgunGothic;
@@ -202,7 +182,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 .content-logoSize-busy{
     width: 73px;
     height: 69px;
-    border: solid 2px #1433fb;
 }
 
 .business-imgArea-contact{
@@ -240,28 +219,26 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 }
 
 
+/* Contact part */
 
 .contact-phone{
     width: 72px;
     height: 72px;
-    border: solid 1px #1433fb;
 }
 .contact-mail{
     width: 72px;
     height: 72px;
-    border: solid 1px #1433fb;
 }
 .contact-map{
     width: 72px;
     height: 72px;
-    border: solid 1px #1433fb;
     background-size: cover;
 }
 .contect-location{
     width: 48px;
     height: 48px;
-    border: solid 1px #1433fb;
 }
+
 .contact-word{
     height: 31px;
     font-family: MalgunGothic;

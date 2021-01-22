@@ -24,41 +24,36 @@
     width: 252px;
     height: 54px;
     margin: 0 68px 4px 0;
-    border: solid 2px #1433fb;
-
 }
 
 
 .foot-wordSide{
-    margin: 14px 51px 10px 10.5px;
+    height: 60px;
     font-size: 13px;
-    font-family: MalgunGothic;
-    font-size: 13px;
+    margin: 14px 54px 10px 10.5px;
+    font-family: SegoeUI;
+    line-height: 1.31;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.31;
     letter-spacing: normal;
     text-align: left;
     color: #bdbdbd;
 }
-.foot-contectInfo{
+.info-words{
+    height: 60px;
     font-size: 13px;
-    
-    font-family: MalgunGothic;
-    font-size: 13px;
+    font-family: SegoeUI;
+    line-height: 1.31;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.31;
     letter-spacing: normal;
     text-align: left;
     color: #bdbdbd;
 }
-.foot-wordSide .foot-InfoDown{
-    margin-top: 10px;
-}
-.foot-contectInfo .foot-InfoDown{
+
+.foot-InfoDown{
     margin-top: 10px;
 }
 
@@ -76,8 +71,7 @@
 
 .foot-botmWord{
     height: 17px;
-    font-family: MalgunGothic;
-    font-size: 13px;
+    font-family: SegoeUI;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

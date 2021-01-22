@@ -1,3 +1,10 @@
+/* 
+@media only screen and (min-width: 768px){
+	.clearBoth{
+		clear : both;
+	}
+	 */
+
 .nav-dropDwon {
   min-width: 1200px;
   height: 150px;
@@ -24,98 +31,86 @@
   float: right;
   align-items: center;
   display: flex;
+
 }
 .nav-menu {
-  width: auto;
   list-style: none;
-  align-items: center;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.3s;
+  width: 172px;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-left: -25px;
+  border-top: 3px solid #D40B0B;
+}
+
+.nav-widemenu {
+  list-style: none;
+  position: absolute;
+  width: 284px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.3s;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-left: -80px;
+  border-top: 3px solid #D40B0B;
 }
 
 .nav-linkItem {
   font-weight: 700;
   color: #ffffff;
-}
-.nav-source {
-  font-weight: 700;
-  color: #ffffff;
-  border: none;
-  width: 284px;
-}
-
-.nav-dropDwon .nav-linkList .nav-linkItem {
-  float: left;
   display: inline-block;
   margin: 0 5px;
 }
 
-.nav-dropDwon .nav-linkList .nav-linkItem a {
+
+.nav-linkItem a {
   color: white;
   text-decoration: none;
   font-size: 18px;
   padding: 8px 15px;
 }
 
-.nav-dropDwon .nav-linkList .nav-menu {
-  position: absolute;
-  margin-top: 10px;
-  opacity: 0;
-  visibility: hidden;
-  transition: top 0.3s;
-  width: 120px;
-}
-
-.nav-dropDwon .nav-linkList .nav-linkItem a {
-  color: white;
-  font-size: 18px;
-  padding: 8px 15px;
-}
-
-.nav-dropDwon .nav-linkList .nav-linkItem a:hover {
+.nav-linkItem a:hover {
   color: red;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #33ffff, #66ffff;
-  text-decoration: underline;
 }
 
-.nav-dropDwon .nav-linkList .nav-linkItem:hover > .nav-menu {
+.nav-linkItem:hover > .nav-menu {
   opacity: 1;
   visibility: visible;
+  background-color: #222222;
 }
 
-.nav-dropDwon .nav-linkList .nav-menu .nav-source {
-  position: relative;
-  margin: 0px;
-  width: 15px;
-  height: 30px;
-  float: none;
-  display: list-item;
+.nav-linkItem:hover > .nav-widemenu {
+  opacity: 1;
+  visibility: visible;
+  background-color: #222222;
+
 }
 
-.nav-dropDwon .nav-linkList .nav-menu .nav-source .busi-item{
-  position: relative;
-  width: 284px;
-  background-color: aqua;
-}
-
-.nav-bar .nav-link {
-  position: relative;
-  float: right;
+.nav-source {
+  height: 46px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
   list-style: none;
-  margin-right: 40px;
 }
 
-.nav-bar .nav-link .nav-item {
-  float: left;
-  display: inline-block;
-  background-color: black;
-  margin: 0 5px;
+.nav-source a {
+  color: white;
+  font-size: 15px;
+}
+
+.nav-source a:hover {
+  color: red;
 }
 
 .nav-logoSize {
   justify-content: center;
   align-items: center;
-  font-size: 17px;
-  font-weight: 900;
   color: #000000;
   float: left;
   display: flex;
@@ -125,3 +120,4 @@
   width: 233px;
   height: 50px;
 }
+/* } */
