@@ -35,9 +35,6 @@
     background-color: #f5f5f5;
 }
 
-
-
-
 /* inSilde-center Layout */
 .screen-center-busy{
     position: relative;
@@ -75,11 +72,6 @@
     text-align: center;
     color: #ffffff;
 }
-
-
-/* ------------   main content area -------------- */
-
-
 .main-content-busy{
     width: 1200px;
     /* height: 1098px; */
@@ -176,6 +168,34 @@
     height: 69px;
 }
 
+.business-imgArea-contact{
+    width: 100%;
+}
+.contact-icons{
+    width: 100%;
+    height: 440px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.icon-wrapper{
+    align-items: stretch;
+    display: inherit;
+}
+
+
+.contact-icon-area{
+    width: 301px;
+    margin: 0 47px 0 47px;
+}
+
+
+.contact-map-btmArea{
+    height: 775px;
+    background-color: #f5f5f5;
+}
+
+
 .center-business{
     height: 1093px;
 }
@@ -183,7 +203,67 @@
 .center-platfrom{
     height: none;
 }
-.icon-wrapper{
-    align-items: stretch;
-    display: inherit;
+
+
+/* Contact part */
+
+.contact-phone{
+    width: 72px;
+    height: 72px;
+}
+.contact-mail{
+    width: 72px;
+    height: 72px;
+}
+.contact-map{
+    width: 72px;
+    height: 72px;
+    background-size: cover;
+}
+.contect-location{
+    width: 48px;
+    height: 48px;
+}
+
+.contact-word{
+    height: 31px;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+    color: #bdbdbd;
+}
+
+.contact-info{
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #565656;
+}
+.contact-map-top{
+    height: 223px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact-top-wrapper{
+    margin-top: 80px;
+}
+.contact-map-bottom{
+    height: 426px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contact-mapImg{
+    width: 800px;
+    height: 426px;
+    background-color: lightsalmon;
 }

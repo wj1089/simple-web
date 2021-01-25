@@ -68,7 +68,6 @@
 }
 
 .center-aboutText{
-    font-family: MalgunGothic;
     font-size: 28px;
     font-weight: normal;
     font-stretch: normal;
@@ -100,7 +99,6 @@
     display: flex;
 }
 .center-commentText{
-    font-family: MalgunGothic;
     font-size: 26px;
     font-weight: normal;
     font-stretch: normal;

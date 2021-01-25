@@ -13,6 +13,7 @@ import footerLogo from '../../resourse/footernav/logo_footer.png'
 // import * as urls from '../cabinet/urls';
 
 const Footer = () => {
+  
   // function clickLink(e) {
   //   e.preventDefault();
   //   window.open(urls.fairTrade);

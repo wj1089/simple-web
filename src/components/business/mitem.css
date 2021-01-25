@@ -12,7 +12,6 @@ margin-top: 79px;
 
 .m-es-firstWord{
 margin: 0 0 8px;
-font-family: MalgunGothic;
 font-size: 22px;
 font-weight: bold;
 font-stretch: normal;
@@ -24,7 +23,6 @@ color: #ffffff;
 
 .m-es-secondWord{
 height: 24px;
-font-family: MalgunGothic;
 font-size: 14px;
 font-weight: normal;
 font-stretch: normal;
@@ -84,7 +82,6 @@ margin-top:5px;
 
 .m-text-busy-title{
 /* width: 150px; */
-font-family: MalgunGothic;
 font-size: 14px;
 font-weight: normal;
 font-stretch: normal;
@@ -99,7 +96,6 @@ color: #000000;
 .m-text-busy-descrip{
 /* height: 17px; */
 margin-top: 5px;
-font-family: MalgunGothic;
 font-size: 13px;
 font-weight: normal;
 font-stretch: normal;
@@ -163,7 +159,7 @@ margin: 40px 0 30px 0;
 width: 258px;
 height: 50px;
 height: 17px;
-font-family: MalgunGothic;
+font-family: ;
 font-size: 12px;
 font-weight: bold;
 font-stretch: normal;
@@ -175,7 +171,6 @@ color: #9e9e9e;
 
 .m-item-docu{
 margin-top: 8px;
-font-family: MalgunGothic;
 font-size: 18px;
 font-weight: bold;
 font-stretch: normal;
@@ -187,7 +182,6 @@ color: #000000;
 }
 
 .m-discrip-body{
-font-family: MalgunGothic;
 font-size: 14px;
 font-weight: normal;
 font-stretch: normal;
@@ -220,7 +214,6 @@ display: flex;
 .m-foot-date{
 height: 18px;
 margin-right: 22px;
-font-family: MalgunGothic;
 font-size: 14px;
 font-weight: normal;
 font-stretch: normal;
@@ -234,7 +227,6 @@ color: #bdbdbd;
 /* width: 73px; */
 height: 18px;
 /* margin: 36px 39px 12px 9px; */
-font-family: MalgunGothic;
 font-size: 14px;
 font-weight: normal;
 font-stretch: normal;
@@ -260,10 +252,19 @@ padding: 11px;
 border-radius: 80px;
 background-color: #e0e0e0;
 margin: 0 16px 0 0;
-color: #9e9e9e;
-border: none;
-outline: none;
-cursor: pointer;
+
+/* .m-item-topic{
+    height: 17px;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9e9e9e;
+    border: none;
+    outline: none;
+    cursor: pointer; */
 }
 
 
@@ -304,24 +305,14 @@ height: 56px;
 .m-motion-discrip{
 width: 328px;
 margin: 38px 0 12px;
-font-family: MalgunGothic;
 font-size: 14px;
-font-weight: normal;
-font-stretch: normal;
-font-style: normal;
-line-height: 1.57;
-letter-spacing: normal;
 text-align: left;
-color: #565656;
 }
-
 
 .m-smartRif-img{
 width: 328px;
 height: 188px;
 }
-
-
 
 .m-smartCar-img{
 width: 328px;
@@ -342,6 +333,10 @@ width: 328px;
 height: 850px;
 }
 
+
+.m-center-platfrom{
+  padding-bottom: 112px;
+}
 
 
 /*-------------------- mobile platform -------------------- */
@@ -373,7 +368,6 @@ border-top: solid 1px #e0e0e0;
 .m-prev-btn{
 width: 25%;
 display: flex;
-font-family: MalgunGothic;
 font-size: 14px;
 font-weight: normal;
 font-stretch: normal;
@@ -386,7 +380,6 @@ cursor: pointer;
 }
 .m-business-kinds{
 width: 50%;
-font-family: MalgunGothic;
 font-size: 14px;
 font-weight: bold;
 font-stretch: normal;
@@ -401,7 +394,6 @@ color: #bdbdbd;
 width: 25%;
 flex: 1;
 text-align: right;
-font-family: MalgunGothic;
 font-size: 14px;
 font-weight: normal;
 font-stretch: normal;
@@ -420,7 +412,7 @@ height: 48px;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-font-family: MalgunGothic;
+font-family: ;
 font-size: 14px;
 font-weight: normal;
 font-stretch: normal;

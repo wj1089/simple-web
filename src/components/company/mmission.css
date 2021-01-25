@@ -15,13 +15,9 @@
 
 
 /* 메인 센터 내용 */
-/* .m-center-contentArea-company{
-    padding: 0px 19px 0 19px;
-  } */
 
 .m-center-title{
     width: 100%;
-    font-family: MalgunGothic;
     font-size: 22px;
     font-weight: bold;
     font-stretch: normal;
@@ -31,14 +27,33 @@
     color: #000000;
 }
 
-
 /* inSilde-center Layout */
-
 
 
 /* 이름 변경 예정 */
 .m-center-missionArea{
     height: 360px;
+}
+
+/* 이름 변경 예정 */
+.m-center-missionAreaBottom{
+    margin-top: 45px;
+    height: 360px;
+    margin-bottom: 40px;
+}
+
+
+/* 이름 변경 예정 */
+.m-center-missionAreavision{
+    height: 360px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+.m-center-coreArea{
+    background-color: #f5f5f5;
+    padding: 60px 16px 90px 16px;
 }
 
 .m-center-about{
@@ -50,7 +65,7 @@
 .m-center-sharedImg-Area{
     width: 100%;
     height: 108px;
-    margin-top: 32.5px;
+    margin-top: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,32 +78,31 @@
 
 .m-center-historyArea{
     height: 2179px;
-    padding-top: 70px;
     justify-content: center;
     align-items: center;
     z-index: 1;
+    background-color: #f5f5f5;
+}
+
+.m-company-center{
+    padding: 70px 16px 0 16px;
 }
 
 .m-history-imgArea{
     margin-top: 27px;
-  
 }
-
-
-
 
 /* -----------   Ceo Comment -------------- */
 
 .m-center-commentArea{
     height: 991.5px;
-    padding: 70px 0 0 0;
+    padding: 70px 16px 0 16px;
     justify-content: center;
     align-items: center;
 }
 
 .m-center-commentText{
     margin-top: 32.5px;
-    font-family: MalgunGothic;
     font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
@@ -98,7 +112,6 @@
     text-align: center;
     color: #000000;
 }
-
 
 .m-partners-slideArea{
     width: 1104px;
@@ -124,16 +137,7 @@
     margin: 21px 0 21px 0;
     padding: 12px;
     opacity: 0.7;
-    /* background-color: #000000; */
     float: right;
-}
-
-
-
-.m-core-bodytop{
-}
-
-.m-core-bodybottom{
 }
 
 .m-core-innerbody{
@@ -156,7 +160,6 @@
 
 .m-core-contenttitle{
     color :silver ;
-    font-family: MalgunGothic;
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
@@ -168,7 +171,6 @@
 
 .m-core-contentsub{
     margin-top: 10px;
-    font-family: MalgunGothic;
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
@@ -178,15 +180,6 @@
     text-align: left;
     color: #424242;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* -----------   partner -------------- */

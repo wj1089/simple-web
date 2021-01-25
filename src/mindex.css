@@ -13,8 +13,8 @@ body {
     text-align: center;
     margin: auto !important;
     float : none !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Noto Sans KR, sans-serif;
+    font-family: '맑은 고딕', 'malgun gothic', 'AppleGothicNeoSD', 'Apple SD 산돌고딕 Neo', 
+    'Microsoft NeoGothic',  'Droid sans', sans-serif;
     -ms-user-select: none;
     -moz-user-select: -moz-none;
     -khtml-user-select: none;
@@ -93,7 +93,6 @@ a{
 .m-screen-layout-dark{
   position: absolute;
   width: 100%;
-  font-family: MalgunGothic;
   font-size: 34px;
   font-weight: bold;
   font-stretch: normal;
@@ -109,16 +108,14 @@ a{
   background-color: #222222;
 }
 
-.m-lay-second-dark{
+/* .m-lay-second-dark{
   width: 100%;
-  /* height: 2093px; */
   background-color: paleturquoise;
 }
 
 .m-lay-last-dark{
-  /* height: 371px; */
   background-color: #424242;
-}
+} */
 
 
 /* ------------ mobile 가변수치-------------- */
@@ -133,6 +130,7 @@ a{
   background-image: url("./resourse/mainphoto/mainbanner_1.png");
 }
 
+/* 
 .lay-mobile-first{
   width: 100%;
   height: 553px;
@@ -164,11 +162,9 @@ a{
 }
 .lay-mobile-last{
   width: 100%;
-  /* height: 370px; */
   background-color: #1e1e1e;
   border: 1px solid;
-
-}
+} */
 
 
 
@@ -251,7 +247,7 @@ a{
 .m-screen-center-Area{
   width: auto;
   height: auto;
-  padding: 0 19px 0 19px;
+  /* padding: 0 19px 0 19px; */
 }
 
 .m-top-main-image{
@@ -285,7 +281,6 @@ a{
 
 
 .m-pagetitle{
-  font-family: MalgunGothic;
   font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
@@ -300,7 +295,6 @@ a{
   width: 100%;
 }
 .m-page-mainWord{
-  font-family: MalgunGothic;
   font-size: 30px;
   font-weight: bold;
   font-stretch: normal;
@@ -313,7 +307,6 @@ a{
 
 .m-page-subWord{
   margin-top: 16.5px;
-  font-family: MalgunGothic;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -325,7 +318,6 @@ a{
 }
 
 .m-center-titleText{
-  font-family: MalgunGothic;
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -339,7 +331,6 @@ a{
 
 .m-center-smallText{
   margin: 24px 0 0 0;
-  font-family: MalgunGothic;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -353,7 +344,6 @@ a{
 
 .m-center-smallText-mission{
   margin-top: 9px;
-  font-family: MalgunGothic;
   font-size: 13px;
   font-weight: normal;
   font-stretch: normal;
@@ -367,7 +357,6 @@ a{
 
 .m-center-smallText-cmt{
   margin: 30px 0 0 0;
-  font-family: MalgunGothic;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -375,7 +364,8 @@ a{
   line-height: 1.85;
   letter-spacing: normal;
   text-align: center;
-  color: #424242;   
+  color: #424242;
+  word-break: keep-all;
 }
 
 
@@ -389,7 +379,6 @@ a{
 }
 .m-textWord-small{
   margin: 11px 0 9px 0;
-  font-family: MalgunGothic;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -400,7 +389,6 @@ a{
   color: #e0e0e0;
 }
 .m-textWord-big{
-  font-family: MalgunGothic;
   font-size: 26px;
   font-weight: bold;
   font-stretch: normal;
@@ -435,7 +423,6 @@ a{
 .m-select-Button{
   width: 34%;
   font-size: 14px;
-  font-family: MalgunGothic;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -447,7 +434,6 @@ a{
 
 .m-disable-Button{
   width: 33%;
-  font-family: MalgunGothic;
   font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
@@ -482,9 +468,9 @@ a{
   }
   
   .m-topic-underLine-map{
-  width: 36px;
-  margin: 20.5px 0 30px 0;
-  border: solid 2px #cccccc;
+    width: 16px;
+  margin: 16px 0 24px 0;
+  border: solid 1px #cccccc;
   background-color: #cccccc;
   }
   

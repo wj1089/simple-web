@@ -78,7 +78,6 @@
     margin-top: 35px;
     padding-top: 50px;
     color: #ffffff;
-    font-family: MalgunGothic;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -87,7 +86,6 @@
     width: 1200px;
     height: 24px;
     /* margin: 2px 853px 14px; */
-    font-family: MalgunGothic;
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
@@ -113,7 +111,6 @@
     width: 1200px;
     height: 118px;
     margin-top: 14px;
-    font-family: MalgunGothic;
     font-size: 44px;
     font-weight: bold;
     font-stretch: normal;
@@ -160,7 +157,6 @@
     width: 400px;
     height: 37px;
     margin: 0 320px 6px 0;
-    font-family: MalgunGothic;
     font-size: 28px;
     font-weight: bold;
     font-stretch: normal;
@@ -172,7 +168,6 @@
 }
 .bTob-words{
     width: 400px;
-    font-family: MalgunGothic;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -203,7 +198,6 @@
     width: 52px;
     height: 37px;
     margin: 0 320px 6px 0;
-    font-family: MalgunGothic;
     font-size: 28px;
     font-weight: bold;
     font-stretch: normal;
@@ -215,7 +209,6 @@
 }
 .patent-words{
     width: 400px;
-    font-family: MalgunGothic;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -267,7 +260,6 @@
 .aboutUs-topic{
     height: 37px;
     margin: 0 0 11px 0;
-    font-family: MalgunGothic;
     font-size: 28px;
     font-weight: bold;
     font-stretch: normal;
@@ -278,7 +270,6 @@
     color: #ffffff;
 }
 .aboutUs-words{
-    font-family: MalgunGothic;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
@@ -334,7 +325,6 @@
     width: 122px;
     height: 24px;
     margin: 3px 51px 6px;
-    font-family: MalgunGothic;
     font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
@@ -347,7 +337,6 @@
 .content-detail{
     height: 23px;
     margin-top: 4px;
-    font-family: MalgunGothic;
     font-size: 17px;
     font-weight: bold;
     font-stretch: normal;

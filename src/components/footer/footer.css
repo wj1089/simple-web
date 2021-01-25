@@ -31,7 +31,6 @@
     height: 60px;
     font-size: 13px;
     margin: 14px 54px 10px 10.5px;
-    font-family: SegoeUI;
     line-height: 1.31;
     font-weight: normal;
     font-stretch: normal;
@@ -43,7 +42,6 @@
 .info-words{
     height: 60px;
     font-size: 13px;
-    font-family: SegoeUI;
     line-height: 1.31;
     font-weight: normal;
     font-stretch: normal;
@@ -71,7 +69,6 @@
 
 .foot-botmWord{
     height: 17px;
-    font-family: SegoeUI;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

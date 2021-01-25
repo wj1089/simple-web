@@ -1,0 +1,72 @@
+.m-contactArea{
+
+}
+
+.m-contact-imgSize{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 82px;
+}
+
+.m-contact-img{
+width: 67px;
+height: 68px;
+}
+
+.m-contect-location{
+width: 32px;
+height: 32px;
+}
+
+.m-contact-map-btmArea{
+background-color: #f5f5f5;
+padding-bottom: 112px;
+}
+
+
+.m-contact-word{
+height: 24px;
+font-size: 18px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+text-align: center;
+color: #bdbdbd;
+}
+.m-contact-info{
+margin: 8px 0 9px 0;
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.31;
+letter-spacing: normal;
+text-align: center;
+color: #565656;
+}
+
+.m-contact-map-top{
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.m-contact-top-wrapper{
+margin-top: 80px;
+}
+
+.m-contact-map-bottom{
+height: 426px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.m-contact-mapImg{
+width: 800px;
+height: 426px;
+background-color: lightsalmon;
+}

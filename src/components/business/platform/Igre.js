@@ -145,39 +145,35 @@ const Igre = () => {
                 <div className="m-center-bottom">
                   <div className="m-discrip-body">
                     <b>어린이 식품 배송 서비스</b><br />
-                    어린이 식품 배송 서비스 ‘아이그레’는 간식부터 
-                    가정간편식까지 어린이와 가족을 위한 먹거리를 
-                    앱으로 간편하게 주문할 수 있는 서비스입니다.
+                    어린이 식품 배송 서비스 ‘아이그레’는 간식부터 가정간편식까지 어린이와 가족을 위한 먹거리를 앱으로 간편하게 주문할 수 있는 서비스입니다.
                     <br /><br />
-                    아이그레는 어린 자녀의 식단을 짜는 것이 부담 
-                    되고, 장을 볼 시간도 부족한 부모님의 고민을 
-                    대신해서 어린이가 먹기 좋은 식품을 찾고, 부담 
-                    없는 가격에 제공합니다.
+                    아이그레는 어린 자녀의 식단을 짜는 것이 부담 되고, 장을 볼 시간도 부족한 부모님의 고민을 대신해서 어린이가 먹기 좋은 식품을 찾고, 부담 없는 가격에 제공합니다.
                     <br /><br />
-                    또한, 가족을 위한 특색 있고 트렌디한 식품을 찾아 선보이며,  다양한 먹거리를 손쉽게 경험할 수 
-                    있도록 서비스를 발전시켜 나갈 것입니다.                  
+                    또한, 가족을 위한 특색 있고 트렌디한 식품을 찾아 선보이며,  다양한 먹거리를 손쉽게 경험할 수 있도록 서비스를 발전시켜 나갈 것입니다.
+                    
+                    <div className="m-foot-info">
+                      <span className="m-foot-fisrt">
+                        <p className="m-foot-date">DATE</p>
+                        <p className="m-foot-dateWord">2016-11-11</p>
+                      </span>
+
+                      <span className="m-foot-second">
+                        <p className="m-foot-date">TAGS</p>
+                        <p className="m-foot-dateWord">O2O PLATFORM</p>
+                      </span>
+                      <div className="m-Link-icons">
+                        <button type="button" className="icon-round" onClick={igreLink}>
+                          <i className="fas fa-home" style={{font:'20px'}} />
+                        </button>
+                        <button type="button" className="icon-round" onClick={igreInsta}>
+                          <i className="fab fa-instagram" style={{font:'20px'}} />
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                <div className="m-foot-info">
-                  <span className="m-foot-fisrt">
-                    <p className="m-foot-date">DATE</p>
-                    <p className="m-foot-dateWord">2016-11-11</p>
-                  </span>
-
-                  <span className="m-foot-second">
-                    <p className="m-foot-date">TAGS</p>
-                    <p className="m-foot-dateWord">O2O PLATFORM</p>
-                  </span>
-                  <div className="m-Link-icons">
-                    <button type="button" className="icon-round" onClick={igreLink}>
-                      <i className="fas fa-home" style={{font:'20px'}} />
-                    </button>
-                    <button type="button" className="icon-round" onClick={igreInsta}>
-                      <i className="fab fa-instagram" style={{font:'20px'}} />
-                    </button>
-                  </div>
-                </div>
+                
 
 
                 <div className="m-prevNext-btn">

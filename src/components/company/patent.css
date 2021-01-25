@@ -46,7 +46,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 }
 
 .patent-titleText{
-    font-family: MalgunGothic;
     font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
@@ -58,7 +57,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 }
 
 .patent-subDiscrip{
-    font-family: MalgunGothic;
     font-size: 28px;
     font-weight: normal;
     font-stretch: normal;
@@ -111,7 +109,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 }
 .icon-descrip{
     margin-top: 8px;    
-    font-family: MalgunGothic;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;

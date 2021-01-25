@@ -9,7 +9,7 @@ const GoogleMapWrapper = () => {
       lat: 37.485809,
       lng: 127.120437,
     },
-    zoom: 17,
+    zoom: 15,
   };
 
   const contentString =

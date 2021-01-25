@@ -217,12 +217,12 @@ const Company = () => {
                   <div className="container left">
                     <div className="contentLeft" data-aos="fade-up">
                       <div style={{display : 'inline-flex'}}>
-                        <p className="historyTopSub">전략적 특허 (IP) 사업 착수</p>
+                        <p className="historyTopSub">Pantech & Curitel S/W 공급 계약</p>
                         <p className="yearText">2008</p>
                       </div>
                       <div className="hitoryInnerLeftDiv">
-                        <p className="historySub">SK Telesys S/W 공급 계약</p>
-                        <p className="historySub">KT Tech S/W 공급 계약</p>
+                        <p className="historySub">삼성전자 Display 사업부 S/W 공급 계약</p>
+                        <p className="historySub">삼성전자 테크원(카메라사업부) S/W 공급 계약</p>
                       </div>
                     </div>
                   </div>
@@ -232,7 +232,7 @@ const Company = () => {
                         <p className="yearText">2007</p>
                         <p className="historyTopTitle">삼성전자 휴대폰 S/W 솔루션 공급 계약</p>
                       </div>
-                      <div className="hitoryInnerLeftDiv">
+                      <div className="hitoryInnerRightDiv">
                         <p className="historyTitle">LG전자 휴대폰 S/W 솔루션 공급 계약</p>
                       </div>
                     </div>
@@ -304,29 +304,24 @@ const Company = () => {
           <div className="m-full-screen">
             <div className="m-screen-layout">
               <div className="lay-mobile-top" />
-              <div className="lay-mobile-first-about" />
-              <div className="lay-mobile-second-about" />
-              <div className="lay-mobile-third-about" />
-              <div className="lay-mobile-forth-about" />
-              <div className="lay-mobile-last" />
             </div>
 
             <main className="m-screen-fullArea">
-              <div className="m-screen-center-Area-company">
-                <div className="m-company-mobile">
-                  <div className="m-center-imgtitle">
-                    <p className="m-page-mainWord">COMPANY</p>
-                  </div>
-                  <div className="m-center-selectBar">
-                    <div className="m-select-Button">ABOUT</div>
-                    <a className="m-disable-Button" href="/mission">MISSION</a>
-                    <a className="m-disable-Button" href="/patent">PATENT</a>
-                  </div>
+              <div className="m-company-mobile">
+                <div className="m-center-imgtitle">
+                  <p className="m-page-mainWord">COMPANY</p>
                 </div>
+                <div className="m-center-selectBar">
+                  <div className="m-select-Button">ABOUT</div>
+                  <a className="m-disable-Button" href="/mission">MISSION</a>
+                  <a className="m-disable-Button" href="/patent">PATENT</a>
+                </div>
+              </div>
 
-                <div className="m-center-contentArea-company">
+              <div className="m-center-contentArea-company">
 
-                  <div className="m-center-aboutArea">
+                <div className="m-center-aboutArea">
+                  <div className="m-company-center">
                     <p className="m-center-title">ABOUT US</p>
                     <div className="m-underLine-area">
                       <p className="m-topic-underLine" />
@@ -349,8 +344,10 @@ const Company = () => {
                       <br /> 하고 있습니다.
                     </p>
                   </div>
+                </div>
 
-                  <div className="m-center-historyArea">
+                <div className="m-center-historyArea">
+                  <div className="m-company-center">
                     <p className="m-center-title">HISTORY</p>
                     <div className="m-underLine-area">
                       <p className="m-topic-underLine" />
@@ -359,43 +356,42 @@ const Company = () => {
                       <img className="m-history-imgSize" src={mhistory} alt="history-img" />
                     </div>
                   </div>
-                  <div className="m-center-commentArea">
-                    <p className="m-center-title">CEO COMMENT</p>
-                    <div className="m-underLine-area">
-                      <p className="m-topic-underLine" />
-                    </div>
-                    <p className="m-center-commentText">
-                      끊임없는 연구개발과 기술공급에 최선의 노력을 다하고 있으며, blue ocean 창출에 노력하고 있습니다.
-                    </p>
-                    <p className="m-center-smallText-cmt">
-                      모리아타운은 IT업계의 태동기 때부터 쌓아온 저력을 바탕으로 2006년 9월 설립된 회사입니다. 
-                      <br /> 
-                      <br /> 회사의 창립이래 지금까지 주요 업계에 다양한 솔루션과 기술을 공급하는 것을 사명으로 업무를 진행하는 저희 모리아타운은 
-                      <br /> 주요 IT분야의 제조사 대상으로 여러 가지 비즈니스를 알차게 진행하고 있습니다. 또한, 여러모로 많은 성원을 보내 주시는 고객사의 신뢰에 보답하기 위해 
-                      <br /> 끊임없는 연구개발과 기술공급에 최선의 노력을 다하고 있으며, 기존 틀에서 벗어난 보다 창의적인 기술로 차별화된 새로운 대안을 제시하고, 
-                      <br /> 이를 통한 BLUE OCEAN 창출에 노력하고 있습니다. 
-                      <br /><br /> 
-
-                      <p>특히 S/W 산업 부문에 있어서 다양한 실적과 결과를 지속해서 보여드릴 것을 약속드리며 아울러 다양한 
-                        <br /> 가치 창출의 비즈니스 분야에 있어 선도적 역할을 담당한다는 사명을 지켜나갈 것입니다. 
-                        <br /> 저희 홈페이지를 찾아 주신 여러분께 다시 한 번 
-                        <br /> 감사를 드리며, 지속적인 격려와 성원을 
-                        <br /> 부탁드립니다.
-                      </p>
-                    </p>
-                    <div className="m-center-commetSign">
-                      <img className="m-sign-area" src={sign} alt="moriagtown-sign" />
-                    </div>
+                </div>
+                <div className="m-center-commentArea">
+                  <p className="m-center-title">CEO COMMENT</p>
+                  <div className="m-underLine-area">
+                    <p className="m-topic-underLine" />
                   </div>
+                  <p className="m-center-commentText">
+                    끊임없는 연구개발과 기술공급에 최선의 노력을 다하고 있으며, blue ocean 창출에 노력하고 있습니다.
+                  </p>
+                  <p className="m-center-smallText-cmt">
+                    모리아타운은 IT업계의 태동기 때부터 쌓아온 저력을 바탕으로 2006년 9월 설립된 회사입니다. 
+                    <br /> 
+                    <br /> 회사의 창립이래 지금까지 주요 업계에 다양한 솔루션과 기술을 공급하는 것을 사명으로 업무를 진행하는 저희 모리아타운은 
+                    주요 IT분야의 제조사 대상으로 여러 가지 비즈니스를 알차게 진행하고 있습니다. 또한, 여러모로 많은 성원을 보내 주시는 고객사의 신뢰에 보답하기 위해 
+                    끊임없는 연구개발과 기술공급에 최선의 노력을 다하고 있으며, 기존 틀에서 벗어난 보다 창의적인 기술로 차별화된 새로운 대안을 제시하고, 
+                    이를 통한 BLUE OCEAN 창출에 노력하고 있습니다. 
+                    <br /><br /> 
 
-                  <div className="m-center-partnerArea">
-                    <p className="m-center-title">PARTNERS</p>
-                    <div className="m-underLine-area">
-                      <p className="m-topic-underLine" />
-                    </div>
-                    <div className="m-parter-logoArea">
-                      <div className="m-parter-logos">asd</div>
-                    </div>
+                    <p>특히 S/W 산업 부문에 있어서 다양한 실적과 결과를 지속해서 보여드릴 것을 약속드리며 아울러 다양한 가치 창출의 비즈니스 분야에 있어 선도적 역할을 담당한다는 사명을 지켜나갈 것입니다. 
+                      <br /><br /> 저희 홈페이지를 찾아 주신 여러분께 다시 한 번 
+                      <br /> 감사를 드리며, 지속적인 격려와 성원을 
+                      <br /> 부탁드립니다.
+                    </p>
+                  </p>
+                  <div className="m-center-commetSign">
+                    <img className="m-sign-area" src={sign} alt="moriagtown-sign" />
+                  </div>
+                </div>
+
+                <div className="m-center-partnerArea">
+                  <p className="m-center-title">PARTNERS</p>
+                  <div className="m-underLine-area">
+                    <p className="m-topic-underLine" />
+                  </div>
+                  <div className="m-parter-logoArea">
+                    <div className="m-parter-logos">asd</div>
                   </div>
                 </div>
               </div>

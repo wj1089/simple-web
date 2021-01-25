@@ -40,7 +40,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 
 .center-imgText{
     margin-top: 101px;
-    font-family: SegoeUI;
     font-size: 50px;
     font-weight: bold;
     font-stretch: normal;
@@ -71,7 +70,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
     margin-bottom: 90px;
 }
 .content-titleSize{
-    font-family: MalgunGothic;
     font-size: 36px;
     font-weight: bold;
     font-stretch: normal;
@@ -82,7 +80,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
     color: #000000;
 }
 .content-subTitleSize{
-    font-family: MalgunGothic;
     font-size: 26px;
     font-weight: bold;
     font-stretch: normal;
@@ -100,7 +97,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 
 .content-rightText{
     color: darkgray;
-    font-family: MalgunGothic;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -156,7 +152,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 
 .core-contenttitle{
     color :silver ;
-    font-family: MalgunGothic;
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
@@ -168,7 +163,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 
 .core-contentsub{
     margin-top: 10px;
-    font-family: MalgunGothic;
     font-size: 15px;
     font-weight: normal;
     font-stretch: normal;

@@ -92,14 +92,14 @@ const Platform = () => {
               <div className="m-screen-center-Area">
                 <div className="m-top-mobile-image">
                   <div className="m-page-imgText">
-                    <p className="m-page-mainWord">020 PLATFORM</p>
+                    <p className="m-page-mainWord">O2O PLATFORM</p>
                     <div className="m-underLine-area">
                       <p className="m-topic-underLine" />
                     </div>
-                    <p className="m-page-subWord">모리아 타운이 개발한 O2O 플랫폼 서비스</p>
+                    <p className="m-page-subWord">모리아타운이 개발한 O2O 플랫폼 서비스</p>
                   </div>
                   {/* <div className="m-center-imgText">
-                    <p className="m-pagetitle">020 PLATFORM</p>
+                    <p className="m-pagetitle">O2O PLATFORM</p>
                   </div> */}
                   
                 </div>

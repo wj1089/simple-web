@@ -135,8 +135,6 @@ const MotionSen = () => {
           <div className="m-full-screen-dark">
             <div className="m-screen-layout-dark">
               <div className="m-lay-top-dark" />
-              <div className="m-lay-second-dark" />
-              <div className="m-lay-last-dark" />
             </div>
 
             <div className="m-screen-center-es">

@@ -28,13 +28,6 @@
   }
 
 
-
-/* 메인 센터 내용 */
-.m-center-contentArea-company{
-    padding: 0px 16px 0 16px;
-  }
-
-
 .m-center-imgtitle{
     width: 100%;
     height: 255px;
@@ -43,7 +36,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: MalgunGothic;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -57,20 +49,16 @@
 
 .m-center-topspaceArea{
     padding-top: 70px;
-    /* height: 815px; */
     justify-content: center;
     align-items: center;
 }
 
 .m-center-aboutArea{
     height: 561px;
-    padding-top:70px;
-    width: auto;
 }
 
 .m-center-aboutText{
     margin-top: 32.5px;
-    font-family: MalgunGothic;
     font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
@@ -81,40 +69,25 @@
     color: #000000;
 }
 
-.m-center-coreArea{
-    height: 1435px;
-    padding: 70px 14px 0 14px;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
-
-
-.m-history-imgArea{
-    margin-top: 27px;
-    border: solid 5px #00b800;
-}
-
-
 .m-history-imgSize{
+    margin-top: 45px;
     width: 297px;
-    height: 1907px;
-    
     background-size: cover;
     background-image: url(../../resourse/m.about/mhistory.png);
 }
 
+/* -----------   Ceo Comment -------------- */
 
 .m-center-commentArea{
-    height: 991.5px;
-    padding: 70px 0 0 0;
-    justify-content: center;
-    align-items: center;
+    background-image: url("../../resourse/m.about/mbg_ceocomment.png");
+    background-size: cover;
+    background-position: center center;
+    margin-top: 20px;
+    border-bottom: solid 1px #e0e0e0;
 }
 
 .m-center-commentText{
     margin-top: 32.5px;
-    font-family: MalgunGothic;
     font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
@@ -123,6 +96,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #000000;
+    word-break: keep-all;
 }
 
 
@@ -150,10 +124,10 @@
     margin: 21px 0 21px 0;
     padding: 12px;
     opacity: 0.7;
-    /* background-color: #000000; */
     float: right;
 }
 
+/* -----------   partner -------------- */
 
 .m-partners-iconList{
     height: 90px;
@@ -177,9 +151,7 @@
 
 .m-center-partnerArea{
     height: 386px;
-    padding: 79px 0 0 0;
-    justify-content: center;
-    align-items: center;
+    padding: 79px 47px 0 47px;
 }
 
 
@@ -200,4 +172,7 @@
     margin: 0 31px 0 31px;
     background-color: #ffffff;
     border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

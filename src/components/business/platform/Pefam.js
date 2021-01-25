@@ -135,43 +135,37 @@ const Pefam = () => {
                 <div className="m-center-bottom">
                   <div className="m-discrip-body">
                     <b>반려견 펫시터 매칭 서비스</b><br />
-                    어린이 식품 배송 서비스 ‘아이그레’는 간식부터 
-                    가정간편식까지 어린이와 가족을 위한 먹거리를 
-                    앱으로 간편하게 주문할 수 있는 서비스입니다.
+                    반려견 돌봄 중개 플랫폼 ‘페팸’은 2015년부터 지금까지 반려견 돌봄이 필요한 반려인과  펫시터를 연결해오고 있습니다.
                     <br /><br />
-                    아이그레는 어린 자녀의 식단을 짜는 것이 부담 
-                    되고, 장을 볼 시간도 부족한 부모님의 고민을 
-                    대신해서 어린이가 먹기 좋은 식품을 찾고, 부담 
-                    없는 가격에 제공합니다.
+                    모리아타운은 커뮤니티와 오프라인 영세업체를 통해 이루어졌던 반려동물 돌봄 서비스의 불편함을 해소하기 위하여 온라인(앱)을 통한 서비스를 런칭하였습니다. 앱에서 예약부터 펫시터 정보 확인, 결제까지 원스톱으로 해결하고,  안전보상정책을 통해 고객이 안심하고 이용 할 수 있는 서비스를 제공합니다.
                     <br /><br />
-                    또한, 가족을 위한 특색 있고 트렌디한 식품을 찾아 선보이며,  다양한 먹거리를 손쉽게 경험할 수 
-                    있도록 서비스를 발전시켜 나갈 것입니다.              
+                    페팸은 오랫동안 쌓아온 반려동물과 반려인에 대한 이해를 바탕으로  반려견 전문 브랜드로 영향력을 확대해 가고 있습니다.
                   </div>
-                </div>
 
-                <div className="m-foot-info">
-                  <span className="m-foot-fisrt">
-                    <p className="m-foot-date">DATE</p>
-                    <p className="m-foot-dateWord">2016-11-11</p>
-                  </span>
+                  <div className="m-foot-info">
+                    <span className="m-foot-fisrt">
+                      <p className="m-foot-date">DATE</p>
+                      <p className="m-foot-dateWord">2016-11-11</p>
+                    </span>
 
-                  <span className="m-foot-second">
-                    <p className="m-foot-date">TAGS</p>
-                    <p className="m-foot-dateWord">O2O PLATFORM</p>
-                  </span>
+                    <span className="m-foot-second">
+                      <p className="m-foot-date">TAGS</p>
+                      <p className="m-foot-dateWord">O2O PLATFORM</p>
+                    </span>
 
-                  <div className="m-Link-icons">
-                    <button type="button" className="icon-round" onClick={pefamLink}>
-                      <i className="fas fa-home" style={{font:'20px'}} />
-                    </button>
-                    
+                    <div className="m-Link-icons">
+                      <button type="button" className="icon-round" onClick={pefamLink}>
+                        <i className="fas fa-home" style={{font:'20px'}} />
+                      </button>
+                      
+                    </div>
                   </div>
                 </div>
 
 
                 <div className="m-prevNext-btn">
                   <div className="m-prev-btn">
-                    <a href="/pafemCat">
+                    <a href="/pefamCat">
                       <div className="m-left-btnImg">
                         <span className="material-icons" style={{color:'#ffffff', fontSize:'15px'}}>
                           arrow_back_ios_new

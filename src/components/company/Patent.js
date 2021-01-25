@@ -188,8 +188,6 @@ const Patent = () => {
           <div className="m-full-screen">
             <div className="m-screen-layout">
               <div className="lay-mobile-top" />
-              <div className="lay-mobile-first-patent" />
-              <div className="lay-mobile-last" />
             </div>
 
             <main className="m-screen-fullArea">

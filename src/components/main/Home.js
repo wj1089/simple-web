@@ -51,8 +51,8 @@ const Home = () => {
                       <div className="bToCorB-textArea">
                         <p className="bTob-topic">EMBEDDED SOLUTION</p>
                         <p className="bTob-words">
-                          실현에 얼마나 이상의 반짝이는 이것이다. 같이 품으며,
-                          <br /> 희망의 전자만홍이 이상, 인간의 아니한 피다.
+                          모리아타운은 다양한 솔루션 발굴 및 공급 경험을 
+                          <br />토대로 보다 창조적이고 발전된 기술을 제공합니다.
                         </p>
                       </div>
                       <div className="bToCorB-imgArea">
@@ -67,8 +67,8 @@ const Home = () => {
                     <div className="patent">
                       <div className="patent-textArea">
                         <p className="patent-topic">PATENT</p>
-                        <p className="patent-words">실현에 얼마나 이상의 반짝이는 이것이다. 같이 품으며,
-                          <br /> 인간의 아니한 피다.
+                        <p className="patent-words">다양한 특허를 보유함으로써 차별화 된
+                          <br /> 새로운 대안을 제시합니다.
                         </p>
                       </div>
                       <div className="bToCorB-imgArea">
@@ -129,17 +129,6 @@ const Home = () => {
               <div className="m-lay-topImg" />
               <div className="m-lay-topImgNext" />
             </div>
-            <div className="m-lay-home-second" />
-            <div className="m-lay-home-third" />
-            <div className="m-lay-home-forth">
-              <div className="forth-left" />
-              <div className="forth-right" />
-            </div>
-            <div className="m-lay-home-fifth" />
-            <div className="m-lay-home-footer">
-              <div className="m-lay-foot-top" />
-              <div className="m-lay-foot-bottom" />
-            </div>
           </div>
 
           <main className="m-screen-fullArea">
@@ -154,37 +143,36 @@ const Home = () => {
 
               <div className="m-second-home-content">
                 <div className="m-embed-img" alt="embed-img" />
-                <div className="m-embed-textArea">
-                  <p className="m-embed-topic">EMBEDDED SOLUTION</p>
-                  <p className="m-embed-descrip">
-                    실현에 얼마나 이상의 반짝이는 이것이다. 같이 품으며,
-                    <br />
-                    희망의 천자만홍이 이상,인간의 아니한 피다.
-                    <br />
-                    황금시대를 것이다.
-                  </p>
+                <div className="m-center-area">
+                  <div className="m-embed-textArea">
+                    <p className="m-embed-topic">EMBEDDED SOLUTION</p>
+                    <p className="m-embed-descrip">
+                      모리아타운은 다양한 솔루션 발굴 및 공급 경험을 토대로 보다 창조적이고 발전된 기술을 제공합니다.
+                    </p>
+                  </div>
                 </div>
               </div>
               
               <div className="m-third-home-content">
                 <div className="m-patent-img" />
-                <div className="m-patent-textArea">
-                  <p className="m-patent-topic">PATENT</p>
-                  <p className="m-patent-descrip">
-                    실현에 얼마나 이상의 반짝이는 이것이다. 같이 품으며,
-                    인간의 아니한 피다.
-                  </p>
+                <div className="m-center-area">
+                  <div className="m-patent-textArea">
+                    <p className="m-patent-topic">PATENT</p>
+                    <p className="m-patent-descrip">
+                      다양한 특허를 보유함으로써 차별화 된 새로운 대안을 제시합니다.
+                    </p>
+                  </div>
                 </div>
               </div>
+
               <div className="m-fourth-home-content">
                 <div className="m-content-about">
                   <p className="m-about-topArea">About us</p>
-                  <div className="m-about-downArea">
-                    <img className="m-nextBtn" src={nextBtn} alt="nextBtn" />
-                  </div>
+                  <img className="m-nextBtn" src={nextBtn} alt="nextBtn" />
                 </div>
-                <div className="m-content-image">Image</div>
+                <div className="m-content-image" />
               </div>
+
               <div className="m-fifth-home-content">
                 <div className="m-contact-textArea">
                   <div className="m-textArea-oneline">
