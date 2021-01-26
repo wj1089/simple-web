@@ -70,18 +70,19 @@
 }
 
 .m-history-imgSize{
-    margin-top: 45px;
     width: 297px;
+    margin-top: 45px;
     background-size: cover;
+    background-position: center center;
     background-image: url(../../resourse/m.about/mhistory.png);
 }
 
 /* -----------   Ceo Comment -------------- */
 
 .m-center-commentArea{
-    background-image: url("../../resourse/m.about/mbg_ceocomment.png");
     background-size: cover;
     background-position: center center;
+    background-image: url("../../resourse/m.about/mbg_ceocomment.png");
     margin-top: 20px;
     border-bottom: solid 1px #e0e0e0;
 }
@@ -144,9 +145,11 @@
     height: 90px;
     padding: 0 75px;
 }
+
 .m-partners-iconImg{
     width: 120px;
     height: 90px;
+    margin: 0 73px 0 73px;
 }
 
 .m-center-partnerArea{
@@ -160,19 +163,47 @@
     margin-top: 32.5px;
     background-color: #ffffff;
     display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
 }
 
-
-.m-parter-logos{
+.m-partners-logos{
     width: 264px;
     height: 90px;
-    margin: 0 31px 0 31px;
-    background-color: #ffffff;
-    border: 1px solid;
+    margin: 0 73px 0 73px;
+    /* overflow: hidden; */
     display: flex;
-    align-items: center;
+    /* justify-content: center; */
+    background-color: #ffffff;
+}
+
+.m-slidePage{
+    width: 22p;
+    padding-top: 16px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.m-able-circle{
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+    margin: 0 4px 0 4px;
+    border-radius: 3px;
+    background-color: #d40b0b;
+    outline: none;
+    border: none;
+}
+
+.m-disable-circle{
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0 4px 0 4px;
+    background-color: #e0e0e0;
+    outline: none;
+    border: none;
 }

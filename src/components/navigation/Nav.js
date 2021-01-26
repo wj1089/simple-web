@@ -53,14 +53,10 @@ const Nav = () => {
 
   const handleCompany = () =>{
     setIsCompany(!isCompany);
-    console.log("isCompany")
-    console.log(isCompany)
   }
 
   const handleBusiness = () =>{
     setIsBusiness(!isBusiness);
-    console.log("isBusiness")
-    console.log(isBusiness)
   }
 
   window.onscroll = () => {
@@ -155,8 +151,8 @@ const Nav = () => {
                   <div className="m-nav-selectItem">
                     <div className="m-nav-select-btn">
 
-                      <div className="m-select-capital">
-                        <p>COMPANY</p>
+                      <div className="m-select-listArea">
+                        <p className="m-select-capital">COMPANY</p>
                         <button className="m-nav-upDown" type="button" onClick={handleCompany}>
                           {isCompany === false &&(
                           <span className="material-icons">
@@ -183,8 +179,8 @@ const Nav = () => {
 
 
                     <div className="m-nav-select-btn">
-                      <div className="m-select-capital">
-                        <p>BUSINESS</p>
+                      <div className="m-select-listArea">
+                        <p className="m-select-capital">BUSINESS</p>
                         <button className="m-nav-upDown" type="button" onClick={handleBusiness}>
                           {isBusiness === false &&(
                           <span className="material-icons">
@@ -208,7 +204,7 @@ const Nav = () => {
                     </div>
 
                     <div className="m-nav-select-btn">
-                      <a className="m-select-capital" href="/Company">COMPANY</a>
+                      <a className="m-select-capital" href="/Contact">CONTACT</a>
                     </div>
                   </div>
                 </div>

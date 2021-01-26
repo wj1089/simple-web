@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   BrowserView,
   MobileView
@@ -10,7 +10,6 @@ import './company.css';
 import './mcompany.css';
 import '../../index.css';
 import '../../mindex.css';
-
 import samsung from '../../resourse/aboutphoto/patenerlogo_04.png';
 import lgElec from '../../resourse/aboutphoto/patenerlogo_07.png';
 import arcSoft from '../../resourse/aboutphoto/patenerlogo_08.png'
@@ -21,9 +20,114 @@ import sign from '../../resourse/aboutphoto/ceocomment_sign.png';
 
 
 const Company = () => {
+  let start = 0;
+  const INTERVAL_TIME = 5000;
+  const [logoArea, setLogoArea] = useState(0);
+  const [slideWidth, setSlideWidth] = useState(0);
+  const [totalSlide, setTotalSlide] = useState(2);
+  const viewSlideCnt = 2;
+  const autoSlide = Boolean;
+  const enableTouch = Boolean;
+  const sliderRef = useRef(null);
+
+  const refCurrentSlide = useRef(null);
+  refCurrentSlide.current = { logoArea, setLogoArea };
+
+  const refTotalSlide = useRef(null);
+  refTotalSlide.current = { totalSlide, setTotalSlide };
+
+
+  
+
+  const movingSlide =((direction)=>{
+    if(direction > 0){
+      if(logoArea < viewSlideCnt){
+        setLogoArea(logoArea +1)
+      }else{
+        setLogoArea(0)
+      }
+    }else if(direction < 0){
+      if(logoArea > 0){
+        setLogoArea(logoArea-1)
+      }else{
+        setLogoArea(viewSlideCnt)
+      }
+    }
+    console.log(logoArea)
+  }
+  )
+
+  // ----------- touch Zone
+
+  const touchStart = (e) => {
+    if (!enableTouch) return;
+    e.stopPropagation();
+    start = e.touches['0'];
+  };
+
+  const touchFinish = (e) => {
+    if (!enableTouch) return;
+    e.stopPropagation();
+    const value = start.clientX - e.changedTouches[0].clientX;
+   
+    if (value > 0) {
+      movingSlide(1);
+    } else if (value === 0) {
+      movingSlide(-1);
+    }else if(value < 0){
+      if(logoArea > 0){
+        setLogoArea(logoArea-1)
+      }else{
+        setLogoArea(viewSlideCnt)
+      }
+    }
+  };
+
+  // const leftBtn = () =>{
+  //   movingSlide(-1);
+  // }
+
+  // const rightBtn = () =>{
+  //   movingSlide(1);
+  // }
+
+  useEffect(()=>{
+    const movePix = logoArea * slideWidth;
+    sliderRef.current.style.transition = 'all 2s ease-in-out';
+    sliderRef.current.style.transform = `translateX(-${movePix}px)`;
+  }, [logoArea])
+
+
+useEffect(() => {
+    if (sliderRef.current != null) {
+      const contentCur = window.getComputedStyle(sliderRef.current.childNodes[0]);
+      const contentWidth = contentCur.width.replace('px', '');
+      const contenMarginR = contentCur.marginRight.replace('px', '');
+      const contenMarginL = contentCur.marginLeft.replace('px', '');
+      const calWidth = contentWidth * 1 + contenMarginR * 1 + contenMarginL * 1;
+      setSlideWidth(calWidth);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (autoSlide) {
+      const interval = setInterval(() => {
+        refCurrentSlide.current.setLogoArea(
+          refCurrentSlide.current.logoArea + 1 >= refTotalSlide.current.totalSlide
+            ? 0
+            : refCurrentSlide.current.logoArea + 1,
+        );
+      }, INTERVAL_TIME);
+      return () => {clearInterval(interval)};
+    }
+    return (autoSlide === true);
+  }, [autoSlide, INTERVAL_TIME]);
+
+
   useEffect(() => {
     AOS.init();
   }, []);
+
     return (
       <>
         <BrowserView>
@@ -386,13 +490,43 @@ const Company = () => {
                 </div>
 
                 <div className="m-center-partnerArea">
+
                   <p className="m-center-title">PARTNERS</p>
+
                   <div className="m-underLine-area">
                     <p className="m-topic-underLine" />
                   </div>
-                  <div className="m-parter-logoArea">
-                    <div className="m-parter-logos">asd</div>
+
+
+                  <div className="m-parter-logoArea" onTouchStart={touchStart} onTouchEnd={touchFinish}>
+                    <div className="m-partners-logos" ref={sliderRef}>
+                      <img className="m-partners-iconImg" src={arcSoft} alt="parter-arcSoft" />
+                      <img className="m-partners-iconImg" src={samsung} alt="parter-samsung" />
+                      <img className="m-partners-iconImg" src={lgElec} alt="parter-lg" />
+                    </div>
                   </div>
+
+                  <div className="m-slidePage">
+                    <button type="button" className={logoArea === 0 ? "m-able-circle" : "m-disable-circle"}>
+                      {/* empty  */}
+                    </button>
+
+                    <button type="button" className={logoArea === 1 ? "m-able-circle" : "m-disable-circle"}>
+                      {/* empty  */}
+                    </button>
+                    
+                    <button type="button" className={logoArea === 2 ? "m-able-circle" : "m-disable-circle"}>
+                      {/* empty  */}
+                    </button>
+
+                    {/* <button type="button" onClick={leftBtn}>
+                      left
+                    </button>
+                    <button type="button" onClick={rightBtn}>
+                      right
+                    </button> */}
+                  </div>
+
                 </div>
               </div>
             </main>
