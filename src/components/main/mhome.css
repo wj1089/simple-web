@@ -2,28 +2,23 @@
 .m-second-home-content{
     position: relative;
     width: 100%;
-    height: 262px;
 }
 
 .m-embed-img{
-    position: absolute;
-    display: flex;
     width: 100%;
-    height: 262px;
+    height: 219px;
     background-image: url('../../resourse/m.main/mbg_main-es.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: right top;
 }
 
 .m-embed-textArea{
     position: absolute;
-    height: 140px;
-    padding: 0 16px 0 16px;
+    padding: 0 16px 27px 16px;
     word-break: keep-all;
     bottom: 0;
-    /* background-color: lightyellow; */
-    /* text-align: right; */
+    left: 0;
 }
 
 .m-embed-topic{
@@ -34,23 +29,65 @@
     line-height: 1.33;
     letter-spacing: normal;
     color: #d40b0b;
-    text-align: right;
+    text-align: left;
 }
 .m-embed-descrip{
-    margin-top: 12px;
-    font-size: 13px;
+    margin-top: 4px;
+    font-size: 14px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.54;
     letter-spacing: normal;
-    text-align: right;
+    text-align: left;
     color: #565656;
 }
 
-
-
 .m-third-home-content{
+    position: relative;
+    width: 100%;
+}
+
+.m-patent-img{
+    width: 100%;
+    height: 219px;
+    background-image: url('../../resourse/m.main/mbg_main-patent.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.m-patent-textArea{
+    position: absolute;
+    padding: 0 16px 27px 16px;
+    word-break: keep-all;
+    bottom: 0;
+    left: 0;
+}
+
+.m-patent-topic{
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #d40b0b;
+    text-align: left;
+}
+.m-patent-descrip{
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e0e0e0;
+}
+
+/* .m-third-home-content{
     width: 100%;
     height: 262px;
     background-image: url('../../resourse/m.main/mbg_main-patent.png');
@@ -68,13 +105,10 @@
 }
 
 .m-patent-textArea{
-    /* width: 100%; */
     position: absolute;
     height: 262px;
     width: 325px;
-    /* background-color: lightyellow; */
     text-align: left;
-    /* z-index: 2; */
     align-items: center;
     padding-top: 125px;
     word-break: keep-all;
@@ -100,7 +134,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #e0e0e0;
-}
+} */
 
 
 .m-fourth-home-content{
@@ -119,7 +153,7 @@
 .m-about-topArea{
     position: relative;
     height: 158px;
-    padding: 32px 29px 0 29px;
+    padding: 32px 25px 0 25px;
     font-size: 28px;
     font-weight: bold;
     font-stretch: normal;
@@ -135,6 +169,7 @@
     height: 29px;
     opacity: 0.9;
 }
+
 .m-content-image{
     width: 50%;
     height: 200px;
@@ -142,6 +177,7 @@
     background-size: cover;
 
 }
+
 .m-center-area{
     padding: 0 19px 0 19px;
 }
@@ -149,28 +185,17 @@
 .m-fifth-home-content{
     position: relative;
     width: 100%;
-    height: 232px;
     background-color: #d8d5d4;
 }
 .m-contact-textArea{
-    height: 232px;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
+    padding: 40px;
 }
+
 .m-textArea-oneline{
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.31;
-    letter-spacing: normal;
-    text-align: center;
-    color: #9e9e9e;
-    margin: 20px 0 8px 0;
+    margin: 0 0 8px 0;
 
 }
 .m-textArea-discript{
@@ -183,9 +208,42 @@
     text-align: center;
     color: #757575;
 }
+.m-content-imgSize{
+    font-size: 24px;
+    margin-right: 4px;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    color: #9e9e9e;
+}
 
-.m-home-icon{
-    width: 18px;
-    height: 18px;
+.m-content-imgSize.material-icons{
+    align-items: center;
+    vertical-align: middle;
+    width: 100px;
+    border: solid 1px #cccccc;
+}
+/* .m-home-icon-phone{
+    width: 24px;
+    height: 24px;
+    background-image: url('../../resourse/mark/phone.png');
+    color: #9e9e9e;
+}
+.m-home-icon-mail{
+    width: 24px;
+    height: 24px;
+    background-image: url('../../resourse/mark/mail.png');
+    color: #9e9e9e;
+} */
+
+.m-textArea-title{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
     color: #9e9e9e;
 }

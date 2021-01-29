@@ -1,57 +1,9 @@
 
 /* desktop */
-.full-screen .lay-top .lay-topImg{
-    position: relative;
-    width: 100%;
-    height: 890px;
-    background-size: cover;
-    background-position: center center;
-    background-image: url("../../resourse/mainphoto/mainbanner_1.png");
-}
-
-.full-screen .lay-topImgNext{
-    position: absolute;
-    width: 100%;
-    height: 890px;
-    background-size: cover;
-    background-position: center center;
-    top: 0;
-    
-    animation-name: fadeInOut;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    animation-direction: alternate;
-    background-image: url("../../resourse/mainphoto/mainbanner_2.png");
-
-}
-
-@keyframes fadeInOut {
-    0% {
-        opacity: 1;
-    }
-    45% {
-        opacity: 1;
-    }
-    55% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-
-.full-screen .lay-home-second{
-    width: 100%;
-    height: 402px;
-}
-
 /* inSilde-center Layout */
 .outSilde-image{
     position: absolute;
     width: 100%;
-    /* height: 94s0px; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -60,66 +12,19 @@
 /* center main content */
 .main-content{
     width: 1200px;
-    height: 1293px;
+    height: 1315px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 .content-area{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 150px;
+    padding-top: 180px;
 }
-.content-topText{
-    width: 1200px;
-    height: 260px;
-    margin-top: 35px;
-    padding-top: 50px;
-    color: #ffffff;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.content-logoText{
-    width: 1200px;
-    height: 24px;
-    /* margin: 2px 853px 14px; */
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: center;
-    color: #e0e0e0;
-
-}
-.content-logoImg{
-    width: 1200px;
-}
-
-.content-logoSize{
-    width: 73px;
-    height: 69px;
-}
-
-
-.content-mainText{
-    position: absolute;
-    width: 1200px;
-    height: 118px;
-    margin-top: 14px;
-    font-size: 44px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.34;
-    letter-spacing: normal;
-    text-align: center;
-}
-
 
 
 
@@ -127,8 +32,9 @@
 .inside-content{
     position: relative;
     width: 1200px;
-    margin-top: 165px;
+    margin-top: 144px;
 }
+
 .inside-content .inside-top{
     width: 100%;
     height: 300px;
@@ -227,12 +133,23 @@
     padding: 0px 20px 23px 0px;
 }
 
-.center-clickImg{
-    height: 108px;
-    float: right;
-}
-.center-iconSize{
+.center-web-embed{
     width: 180px;
+    height: 108px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    background-image: url('../../resourse/mainphoto/icon_b2b.png');
+    background-position: right top;
+}
+.center-web-patent{
+    width: 180px;
+    height: 108px;
+    background-image: url('../../resourse/mainphoto/icon_patent.png');
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 /* center inside content(bottom) */
@@ -304,7 +221,7 @@
 .contact{
     width: 401px;
     height: 300px;
-    padding: 48px 88px 46px;
+    padding: 42px 88px 42px;
     background-color: #d8d5d4;
 }
 

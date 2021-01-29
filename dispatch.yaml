@@ -1,0 +1,7 @@
+dispatch:
+
+- url: "www.moriahtown.com/*"
+  service: default
+
+- url: "moriahtown.com/*"
+  service: default

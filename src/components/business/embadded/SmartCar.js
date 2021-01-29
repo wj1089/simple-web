@@ -75,8 +75,8 @@ const SmartCar = () => {
               <div className="prevNext-btn">
                 <div className="prev-btn">
                   <a href="/SmartRefri">
-                    <div className="left-btnImg" style={{color:'#ffffff'}}>
-                      <span className="material-icons">
+                    <div className="left-btnImg">
+                      <span className="material-icons" style={{color:'#ffffff', fontSize:'18px'}}>
                         arrow_back_ios_new
                       </span>
                     </div>
@@ -87,7 +87,7 @@ const SmartCar = () => {
                 <div className="next-btn">
                   <a href="/ProjectSolu">
                     <div className="right-btnImg">
-                      <span className="material-icons" style={{color:'#ffffff'}}>
+                      <span className="material-icons" style={{color:'#ffffff', fontSize:'18px'}}>
                         arrow_forward_ios
                       </span>
                     </div>
@@ -163,22 +163,22 @@ const SmartCar = () => {
                 <div className="m-prevNext-btn">
                   <div className="m-prev-btn">
                     <a href="/smartRefri">
-                      <div className="m-left-btnImg">
+                      <button type="button" className="m-left-btnImg">
                         <span className="material-icons" style={{color:'#ffffff', fontSize:'15px'}}>
                           arrow_back_ios_new
                         </span>
-                      </div>
+                      </button>
                     </a>
                   </div>
                   <div className="m-business-kinds">EMBEDDED SOLUTION</div>
                   
                   <div className="m-next-btn">
                     <a href="/projectSolu">
-                      <div className="m-right-btnImg">
+                      <button type="button" className="m-right-btnImg">
                         <span className="material-icons" style={{color:'#ffffff', fontSize:'15px'}}>
                           arrow_forward_ios
                         </span>
-                      </div>
+                      </button>
                     </a>
                   </div>
                 </div>

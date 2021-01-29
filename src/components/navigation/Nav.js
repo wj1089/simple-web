@@ -14,10 +14,12 @@ const Nav = () => {
   const [isBusiness, setIsBusiness] = useState(false);
 
   const navBar = useRef(null);
+  const mobileNavBar = useRef(null);
   const logo = useRef(null);
 
 
   function scrollFunction() {
+    
     if (navBar.current != null) {
       // y scroll event
       if (
@@ -46,6 +48,38 @@ const Nav = () => {
       }
     }
   }
+
+  function mobileScrollFunction() {
+    if (mobileNavBar.current != null) {
+      // y scroll event
+      if (
+        document.body.scrollTop > 80 ||
+        document.documentElement.scrollTop > 80
+      ) {
+        mobileNavBar.current.style.height = '80px';
+        mobileNavBar.current.style.backgroundColor = 'rgba(0,0,0,0.85)';
+      } else {
+        mobileNavBar.current.style.height = '80px';
+        mobileNavBar.current.style.backgroundColor = 'rgba(0,0,0,0)';
+      }
+      // x scroll event
+      if (
+        document.body.scrollLeft > 0 ||
+        document.documentElement.scrollLeft > 0
+      ) {
+        const left =
+          document.body.scrollLeft === 0
+            ? document.documentElement.scrollLeft
+            : document.body.scrollLeft;
+
+          mobileNavBar.current.style.left = `${0 - left}px`;
+      } else {
+        mobileNavBar.current.style.left = 0;
+      }
+    }
+  }
+
+
   
   const handleMenuOnclick = () => {
     setIsActive(!isActive); 
@@ -60,8 +94,10 @@ const Nav = () => {
   }
 
   window.onscroll = () => {
-    scrollFunction();
+    scrollFunction()
+    mobileScrollFunction()
   };
+
 
 
 
@@ -119,11 +155,14 @@ const Nav = () => {
         </header>
       </BrowserView>
 
+
+
+
       <MobileView>
-        <div className="m-header">
+        <div className="m-header" ref={mobileNavBar}>
           <div className="m-nav-dropDwon">
             <div className="m-nav-barArea">
-              <div className="m-nav-logoSize">
+              <div className="m-nav-logoSize" ref={logo}>
                 <Link to="/">
                   <img className="m-nav-logo" src={navLogo} alt="navBarLogo" />
                 </Link>
@@ -152,8 +191,8 @@ const Nav = () => {
                     <div className="m-nav-select-btn">
 
                       <div className="m-select-listArea">
-                        <p className="m-select-capital">COMPANY</p>
                         <button className="m-nav-upDown" type="button" onClick={handleCompany}>
+                          <p className="m-select-capital">COMPANY</p>
                           {isCompany === false &&(
                           <span className="material-icons">
                             expand_more
@@ -169,9 +208,9 @@ const Nav = () => {
 
                       { isCompany === true &&(
                         <div className="m-nav-listArea">
-                          <a href="/Company"><div className="m-nav-item">ABOUT</div></a>
-                          <a href="/Mission"><div className="m-nav-item">MISSION</div></a> 
-                          <a href="/Patent"><div className="m-nav-item">PATENT</div></a>
+                          <button type="button" className="m-nav-item"><a href="/Company">ABOUT</a></button>
+                          <button type="button" className="m-nav-item"><a href="/Mission">MISSION</a></button>
+                          <button type="button" className="m-nav-item"><a href="/Patent">PATENT</a></button>
                         </div>
                       )}
                     </div>
@@ -180,12 +219,14 @@ const Nav = () => {
 
                     <div className="m-nav-select-btn">
                       <div className="m-select-listArea">
-                        <p className="m-select-capital">BUSINESS</p>
                         <button className="m-nav-upDown" type="button" onClick={handleBusiness}>
+                          <p className="m-select-capital">BUSINESS</p>
                           {isBusiness === false &&(
-                          <span className="material-icons">
-                            expand_more
-                          </span>
+                          <div className="m-material-areas">
+                            <span className="material-icons">
+                              expand_more
+                            </span>
+                          </div>
                           )}
                           {isBusiness === true &&(
                             <span className="material-icons">
@@ -197,8 +238,8 @@ const Nav = () => {
 
                       { isBusiness === true && (
                         <div className="m-nav-listArea">
-                          <a href="/Business"><div className="m-nav-item">EMBEDDED SOLUTION</div></a>
-                          <a href="/Platform"><div className="m-nav-item">O2O PLATFORM</div></a>
+                          <div className="m-nav-item"><a href="/Business">EMBEDDED SOLUTION</a></div>
+                          <div className="m-nav-item"><a href="/Platform">O2O PLATFORM</a></div>
                         </div>
                       )}
                     </div>

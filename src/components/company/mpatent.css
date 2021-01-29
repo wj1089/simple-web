@@ -72,20 +72,23 @@
 .m-patent-imgArea{
     height: auto;
     margin-bottom: 172px;
+    display: inline-flex;
 }
 
-.m-patent-img-row{
+/* .m-patent-img-row{
     margin: 28px 0 20px;
     background-color: #ffffff;
-}
+} */
 
 .m-patent-imgSize{
-    display: flex;
+    display: inline-block;
+    justify-content: center;
     background-color: #ffffff;
+    padding: 35px 16px 0 16px;
 }
 .m-icon-outLine{
+    display: inline-table;
     width: 47%;
-    padding: 5px 4.8px 5px 5px;
     background-color: #ffffff;
     margin: 1.5%;
 }
@@ -102,5 +105,6 @@
     letter-spacing: normal;
     text-align: center;
     color: #000000;
+    word-break: keep-all;
 }
 

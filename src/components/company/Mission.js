@@ -241,7 +241,8 @@ const Mission = () => {
                           </div>
                           <div className="m-core-contentsub">
                             <span style={{wordBreak : 'keep-all'}}>
-                              매개 비즈니스의 선두 주자를 지향합니다. 우리는 고객의 요구와 기대를 이해하고 이를 충족하기 위해 노력합니다. 모리아타운의 목적은 이윤 추구만을 위함이 아닙니다. 우리는 고객, 파트너와 함께 성장하고 발전합니다.
+                              매개 비즈니스의 선두 주자를 지향합니다. 
+                              <br />우리는 고객의 요구와 기대를 이해하고 이를 충족하기 위해 노력합니다. 모리아타운의 목적은 이윤 추구만을 위함이 아닙니다. 우리는 고객, 파트너와 함께 성장하고 발전합니다.
                             </span>
                           </div>
                         </div>
@@ -255,7 +256,8 @@ const Mission = () => {
                           </div>
                           <div className="m-core-contentsub">
                             <span style={{wordBreak : 'keep-all'}}>
-                              관찰을 통한 정교한 업무의 추진을 확립합니다. 우리는 각각의 지식과 정보를 발전적으로 탐구합니다. 모리아타운은 가치창출을 통해 지속가능한 발전을 위해 노력합니다.
+                              관찰을 통한 정교한 업무의 추진을 확립합니다. 
+                              <br />우리는 각각의 지식과 정보를 발전적으로 탐구합니다. 모리아타운은 가치창출을 통해 지속가능한 발전을 위해 노력합니다.
                             </span>
                           </div>
                         </div>
@@ -269,7 +271,8 @@ const Mission = () => {
                           </div>
                           <div className="m-core-contentsub">
                             <span style={{wordBreak : 'keep-all'}}>
-                              상호존중을 통한 동반관계를 구축합니다. 우리는 서로에 대해 배려하고 서로의 차이점을 인정합니다. 모리아타운은 상호 간의 배려를 바탕으로 한 소통을 원칙으로 합니다.
+                              상호존중을 통한 동반관계를 구축합니다. 
+                              <br />우리는 서로에 대해 배려하고 서로의 차이점을 인정합니다. 모리아타운은 상호 간의 배려를 바탕으로 한 소통을 원칙으로 합니다.
                             </span>
                           </div>
                         </div>
@@ -283,7 +286,8 @@ const Mission = () => {
                           </div>
                           <div className="m-core-contentsub">
                             <span style={{wordBreak : 'keep-all'}}>
-                              통찰력을 기반으로 시장을 개척합니다. 우리는 호기심과 아이디어를 적극적으로 수용하여 발전합니다. 모리아타운은 충분한 시장조사와 사례분석을 기반으로 사업을 진행합니다.
+                              통찰력을 기반으로 시장을 개척합니다. 
+                              <br />우리는 호기심과 아이디어를 적극적으로 수용하여 발전합니다. 모리아타운은 충분한 시장조사와 사례분석을 기반으로 사업을 진행합니다.
                             </span>
                           </div>
                         </div>
@@ -297,7 +301,10 @@ const Mission = () => {
                             <span className="m-core-contenttitle">ACHIEVEMENT</span>
                           </div>
                           <div className="m-core-contentsub">
-                            <span style={{wordBreak : 'keep-all'}}>성과의 보상을 통한 공정함을 추구합니다. 우리는 공동목표를 달성하기 위해 서로 협력합니다. 모리아타운은 성과를 파악하고 이를 칭찬하며, 업무의 만족도를 높이는 보상을 하기 위해 노력합니다.</span>
+                            <span style={{wordBreak : 'keep-all'}}>
+                              성과의 보상을 통한 공정함을 추구합니다. 
+                              <br />우리는 공동목표를 달성하기 위해 서로 협력합니다. 모리아타운은 성과를 파악하고 이를 칭찬하며, 업무의 만족도를 높이는 보상을 하기 위해 노력합니다.
+                            </span>
                           </div>
                         </div>
                       </div>
@@ -310,7 +317,10 @@ const Mission = () => {
                             <span className="m-core-contenttitle">HONESTY</span>
                           </div>
                           <div className="m-core-contentsub">
-                            <span style={{wordBreak : 'keep-all'}}>정직을 최고의 가치로 생각합니다. 우리는 신뢰를 바탕으로 투명한 업무를 지향합니다. 모리아타운은 정직한 소통을 통해 서로의 업무를 이해하고 능률을 높이기 위해 노력합니다.</span>
+                            <span style={{wordBreak : 'keep-all'}}>
+                              정직을 최고의 가치로 생각합니다. 
+                              <br />우리는 신뢰를 바탕으로 투명한 업무를 지향합니다. 모리아타운은 정직한 소통을 통해 서로의 업무를 이해하고 능률을 높이기 위해 노력합니다.
+                            </span>
                           </div>
                         </div>
                       </div>

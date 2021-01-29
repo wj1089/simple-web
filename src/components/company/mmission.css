@@ -9,13 +9,11 @@
     width: 100%;
     height: 1435px;
     border: 1px solid;
-    /* background-color: #f5f5f5; */
   }
   
 
 
 /* 메인 센터 내용 */
-
 .m-center-title{
     width: 100%;
     font-size: 22px;
@@ -28,8 +26,6 @@
 }
 
 /* inSilde-center Layout */
-
-
 /* 이름 변경 예정 */
 .m-center-missionArea{
     height: 360px;
@@ -92,53 +88,6 @@
     margin-top: 27px;
 }
 
-/* -----------   Ceo Comment -------------- */
-
-.m-center-commentArea{
-    height: 991.5px;
-    padding: 70px 16px 0 16px;
-    justify-content: center;
-    align-items: center;
-}
-
-.m-center-commentText{
-    margin-top: 32.5px;
-    font-size: 17px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.76;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000000;
-}
-
-.m-partners-slideArea{
-    width: 1104px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.m-slide-btn-left{
-    position: relative;
-    width: 48px;
-    height: 48px;
-    margin: 21px 0 21px 0;
-    padding: 12px;
-    opacity: 0.7;
-    float: left;
-}
-
-.m-slide-btn-right{
-    position: relative;
-    width: 48px;
-    height: 48px;
-    margin: 21px 0 21px 0;
-    padding: 12px;
-    opacity: 0.7;
-    float: right;
-}
 
 .m-core-innerbody{
     margin-top: 37.5px;

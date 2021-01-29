@@ -76,7 +76,7 @@ const Pefam = () => {
                       </div>
                       <div className="Link-icons">
                         <button type="button" className="icon-round" onClick={pefamLink}>
-                          <i className="fas fa-home" />
+                          <i className="fas fa-home" style={{fontSize:18}} />
                         </button>
                       </div>
                     </div>
@@ -86,8 +86,8 @@ const Pefam = () => {
               <div className="prevNext-btn">
                 <div className="prev-btn">
                   <a href="/pefamCat">
-                    <div className="left-btnImg" style={{color:'#ffffff'}}>
-                      <span className="material-icons">
+                    <div className="left-btnImg">
+                      <span className="material-icons" style={{color:'#ffffff', fontSize:'18px'}}>
                         arrow_back_ios_new
                       </span>
                     </div>
@@ -101,6 +101,11 @@ const Pefam = () => {
           </div>
           <Footer />
         </BrowserView>
+
+
+
+
+
         <MobileView>
           <div className="m-full-screen-dark">
             <div className="m-screen-layout-dark">
@@ -155,7 +160,7 @@ const Pefam = () => {
 
                     <div className="m-Link-icons">
                       <button type="button" className="icon-round" onClick={pefamLink}>
-                        <i className="fas fa-home" style={{font:'20px'}} />
+                        <i className="fas fa-home" style={{fontSize:18}} />
                       </button>
                       
                     </div>
@@ -166,11 +171,11 @@ const Pefam = () => {
                 <div className="m-prevNext-btn">
                   <div className="m-prev-btn">
                     <a href="/pefamCat">
-                      <div className="m-left-btnImg">
-                        <span className="material-icons" style={{color:'#ffffff', fontSize:'15px'}}>
+                      <button type="button" className="m-left-btnImg">
+                        <span className="material-icons" style={{color:'#ffffff', fontSize: 18}}>
                           arrow_back_ios_new
                         </span>
-                      </div>
+                      </button>
                     </a>
                   </div>
                   <div className="m-business-kinds">O2O PLATFORM</div>

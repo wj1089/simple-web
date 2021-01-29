@@ -58,7 +58,7 @@
 }
 
 .m-center-aboutText{
-    margin-top: 32.5px;
+    margin-top: 35px;
     font-size: 17px;
     font-weight: normal;
     font-stretch: normal;
@@ -67,6 +67,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #000000;
+    word-break: keep-all;
 }
 
 .m-history-imgSize{
@@ -84,7 +85,11 @@
     background-position: center center;
     background-image: url("../../resourse/m.about/mbg_ceocomment.png");
     margin-top: 20px;
-    border-bottom: solid 1px #e0e0e0;
+    border-bottom: solid 1px #eeeeee;;
+    /* height: 991.5px; */
+    padding: 70px 16px 80px 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 .m-center-commentText{

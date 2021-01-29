@@ -4,6 +4,7 @@ import {
   MobileView
 } from "react-device-detect";
 import Footer from '../footer/Footer';
+import '../business/business.css'
 import './contact.css';
 import './mcontact.css';
 import '../../index.css';
@@ -68,7 +69,7 @@ const Platform = () => {
                     </div>
                     <div className="contact-icon-area">
                       <img className="contact-map" src={map} alt="contact-map" />
-                      <p className="contact-word">ADRESS</p>
+                      <p className="contact-word">ADDRESS</p>
                       <br />
                       <p className="contact-info">
                         B-915, MSTATE, 114, BEOBWON-RO, SONGPA-GU, SEOUL, 05854,
@@ -92,8 +93,9 @@ const Platform = () => {
                     </div>
                   </div>
                   <div className="contact-map-bottom">
-                    {/* <div className="contact-mapImg">Image</div> */}
-                    <GoogleMapWrapper />
+                    <div className="contact-mapImg">
+                      <GoogleMapWrapper />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -142,7 +144,7 @@ const Platform = () => {
                   <div className="m-contact-imgSize">
                     <img className="m-contact-img" src={mmap} alt="m-map" />
                   </div>
-                  <div className="m-contact-word">ADRESS</div>
+                  <div className="m-contact-word">ADDRESS</div>
                   <div className="m-contact-info">B-915, MSTATE, 114, BEOBWON-RO,
                     <br /> SONGPA-GU, SEOUL, 05854, KOREA
                   </div>

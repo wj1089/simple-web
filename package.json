@@ -15,10 +15,10 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.0.0",
     "google-map-react": "^2.1.9",
-    "react": "^15.3.0",
+    "react": "^16.8.0",
     "react-bootstrap": "^1.4.3",
     "react-device-detect": "^1.15.0",
-    "react-dom": "^15.3.0",
+    "react-dom": "^16.8.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
@@ -27,7 +27,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy_prod": "gcloud app deploy prod_app.yaml --project=moriahtown-support",
+    "dp": "run-s build deploy_prod",
+    "parser": "babel-eslint"
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +39,10 @@
       "prettier"
     ],
     "rules": {
+      "react/jsx-fragments": [
+        "off",
+        "element"
+      ],
       "react/prefer-stateless-function": 0,
       "react/jsx-filename-extension": 0,
       "react/jsx-one-expression-per-line": 0,

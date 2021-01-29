@@ -77,10 +77,10 @@ const PefamCat = () => {
 
                       <div className="Link-icons">
                         <button type="button" className="icon-round" onClick={pefamCatLink}>
-                          <i className="fas fa-home" />
+                          <i className="fas fa-home" style={{fontSize:18}} />
                         </button>
                         <button type="button" className="icon-round" onClick={pefamCatInsta}>
-                          <i className="fab fa-instagram" />
+                          <i className="fab fa-instagram" style={{fontSize:18}} />
                         </button>
                       </div>
                     </div>
@@ -90,8 +90,8 @@ const PefamCat = () => {
               <div className="prevNext-btn">
                 <div className="prev-btn">
                   <a href="/igre">
-                    <div className="left-btnImg" style={{color:'#ffffff'}}>
-                      <span className="material-icons">
+                    <div className="left-btnImg">
+                      <span className="material-icons" style={{color:'#ffffff', fontSize:'18px'}}>
                         arrow_back_ios_new
                       </span>
                     </div>
@@ -102,7 +102,7 @@ const PefamCat = () => {
                 <div className="next-btn">
                   <a href="/pefam">
                     <div className="right-btnImg">
-                      <span className="material-icons" style={{color:'#ffffff'}}>
+                      <span className="material-icons" style={{color:'#ffffff', fontSize:'18px'}}>
                         arrow_forward_ios
                       </span>
                     </div>
@@ -171,10 +171,10 @@ const PefamCat = () => {
                   </span>
                   <div className="m-Link-icons">
                     <button type="button" className="icon-round" onClick={pefamCatLink}>
-                      <i className="fas fa-home" style={{font:'20px'}} />
+                      <i className="fas fa-home" style={{fontSize:20}} />
                     </button>
                     <button type="button" className="icon-round" onClick={pefamCatInsta}>
-                      <i className="fab fa-instagram" style={{font:'20px'}} />
+                      <i className="fab fa-instagram" style={{fontSize:20}} />
                     </button>
                   </div>
                 </div>
@@ -183,22 +183,22 @@ const PefamCat = () => {
                 <div className="m-prevNext-btn">
                   <div className="m-prev-btn">
                     <a href="/igre">
-                      <div className="m-left-btnImg">
+                      <button type="button" className="m-left-btnImg">
                         <span className="material-icons" style={{color:'#ffffff', fontSize:'15px'}}>
                           arrow_back_ios_new
                         </span>
-                      </div>
+                      </button>
                     </a>
                   </div>
                   <div className="m-business-kinds">O2O PLATFORM</div>
                   
                   <div className="m-next-btn">
                     <a href="/pefam">
-                      <div className="m-right-btnImg">
+                      <button type="button" className="m-right-btnImg">
                         <span className="material-icons" style={{color:'#ffffff', fontSize:'15px'}}>
                           arrow_forward_ios
                         </span>
-                      </div>
+                      </button>
                     </a>
                   </div>
                 </div>

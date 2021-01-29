@@ -78,10 +78,10 @@ const Igre = () => {
 
                       <div className="Link-icons">
                         <button type="button" className="icon-round" onClick={igreLink}>
-                          <i className="fas fa-home" />
+                          <i className="fas fa-home" style={{fontSize:18}} />
                         </button>
                         <button type="button" className="icon-round" onClick={igreInsta}>
-                          <i className="fab fa-instagram" />
+                          <i className="fab fa-instagram" style={{fontSize:18}} />
                         </button>
                       </div>
 
@@ -96,7 +96,7 @@ const Igre = () => {
                 <div className="next-btn">
                   <a href="/pefamCat">
                     <div className="right-btnImg">
-                      <span className="material-icons" style={{color:'#ffffff'}}>
+                      <span className="material-icons" style={{color:'#ffffff', fontSize:'18px'}}>
                         arrow_forward_ios
                       </span>
                     </div>
@@ -163,10 +163,10 @@ const Igre = () => {
                       </span>
                       <div className="m-Link-icons">
                         <button type="button" className="icon-round" onClick={igreLink}>
-                          <i className="fas fa-home" style={{font:'20px'}} />
+                          <i className="fas fa-home" style={{fontSize: 18}} />
                         </button>
                         <button type="button" className="icon-round" onClick={igreInsta}>
-                          <i className="fab fa-instagram" style={{font:'20px'}} />
+                          <i className="fab fa-instagram" style={{fontSize:18}} />
                         </button>
                       </div>
                     </div>
@@ -183,12 +183,12 @@ const Igre = () => {
                   <div className="m-business-kinds">O2O PLATFORM</div>
                   
                   <div className="m-next-btn">
-                    <a href="/pefamCat">
-                      <div className="m-right-btnImg">
+                    <a style={{outline:'none',textDecoration:'none'}} href="/pefamCat">
+                      <button type="button" className="m-right-btnImg">
                         <span className="material-icons" style={{color:'#ffffff', fontSize:'15px'}}>
                           arrow_forward_ios
                         </span>
-                      </div>
+                      </button>
                     </a>
                   </div>
                 </div>

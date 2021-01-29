@@ -83,18 +83,19 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 
 .patent-imgArea{
     width: 1200px;
+    display: inline-flex;
 }
 
-.patent-img-row{
+/* .patent-img-row{
     display: flex;
     width: 1197px;
     height: 456px;
     margin: 20px 0 20px;
     background-color: #ffffff;
-}
+} */
 
 .patent-imgSize{
-    display: flex;
+    display: inline-block;
     background-color: #ffffff;
 }
 .icon-outLine{
@@ -102,6 +103,7 @@ Responsive Grid Media Queries - 1920, 1200, 1020
     height: 456px;
     padding: 20px;
     background-color: #ffffff;
+    display: inline-table;
 }
 .icon-size{
     width: 260px;

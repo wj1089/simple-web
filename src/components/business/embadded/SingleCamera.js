@@ -78,7 +78,7 @@ const SingleCamera = () => {
                 <div className="next-btn">
                   <a href="/DualCamera">
                     <div className="right-btnImg">
-                      <span className="material-icons" style={{color:'#ffffff'}}>
+                      <span className="material-icons" style={{color:'#ffffff', fontSize:'18px'}}>
                         arrow_forward_ios
                       </span>
                     </div>
