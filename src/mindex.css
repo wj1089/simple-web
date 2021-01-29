@@ -40,9 +40,6 @@ transition: 0.4s;
 position: absolute;
 min-width: 360px;
 width: 100%;
-align-items: center;
-justify-content: center;
-background-position:right center;
 background-color: #222222;
 }
 
@@ -62,9 +59,6 @@ outline: none;
 /*   --------------   mobile 전체 스크린    -------------- */
 .m-full-screen{
 width: 100%;
-justify-content:center;
-align-content:center;
-background-position:center;
 }
 
 
@@ -205,16 +199,11 @@ background-color: lightsteelblue;
 /* ------------------------  mobile main contant --------------------  */
 .m-screen-fullArea{
 width: 100%;
-justify-content:center;
-align-content:center;
-background-position:center;  
-background-color: rgba(0,0,0,0);
-/* padding: 0 19px 0 19px; */
+
 }
 .m-screen-center-Area{
 width: auto;
 height: auto;
-/* padding: 0 19px 0 19px; */
 }
 
 .m-top-main-image{
@@ -486,11 +475,6 @@ background-color: #cccccc;
 
 
 /* detail underline */
-.m-underLine-area-detail{
-justify-content:  flex-start;
-align-items: center;
-}
-
 .m-topic-underLine-detail{
 width: 36px;
 margin: 20.5px 0 0 0;

@@ -37,7 +37,7 @@ const SingleCamera = () => {
                   </div>
 
                   <div className="center-right">
-                    <div className="discrip-title">
+                    <div>
                       <p className="item-topic">EMBEDDED SOLUTION</p>
                       <p className="docu-topic">DUAL CAMERA SOLUTIONS FOR SMARTPHONES</p>
                     </div>
@@ -114,12 +114,12 @@ const SingleCamera = () => {
                 </div>
 
                 <div className="m-discrip-info">
-                  <div className="">
+                  <div>
                     <p className="m-item-topic">EMBEDDED SOLUTION</p>
                     <p className="m-item-docu">DUAL CAMERA SOLUTIONS</p>
                     <p className="m-item-docu">FOR SMARTPHONES</p>
                     
-                    <div className="m-underLine-area-detail">
+                    <div>
                       <p className="m-topic-underLine-detail" />
                     </div>
                   </div>

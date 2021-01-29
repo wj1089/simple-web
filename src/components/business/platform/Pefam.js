@@ -45,7 +45,7 @@ const Pefam = () => {
                   </div>
 
                   <div className="center-right">
-                    <div className="discrip-title">
+                    <div>
                       <p className="item-topic">O2O PLATFORM</p>
                       <p className="docu-topic">페팸</p>
                     </div>
@@ -132,7 +132,7 @@ const Pefam = () => {
                   <p className="m-item-topic">O2O PLATFORM</p>
                   <p className="m-item-docu">패펨</p>
                   
-                  <div className="m-underLine-area-detail">
+                  <div>
                     <p className="m-topic-underLine-detail" />
                   </div>
                 </div>

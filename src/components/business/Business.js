@@ -144,17 +144,7 @@ const Business = () => {
                   </div>
                   <p className="m-page-subWord">Embedded 소프트웨어 및 솔루션 기술</p>
                 </div>
-                
               </div>
-              {/* <div className="center-imgArea-busy">
-              <div className="center-imgText-busy">
-                EMBEDDED SOLUTION
-                <div className="underLine-area">
-                  <p className="topic-underLine" />
-                </div>
-                <p className="imgText-p">Embedded 소프트웨어 및 솔루션 기술</p>
-              </div>
-            </div> */}
 
               <div className="m-center-business">
                 <div className="m-business-imgArea">

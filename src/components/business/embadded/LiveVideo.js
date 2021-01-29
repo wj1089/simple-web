@@ -39,7 +39,7 @@ const LiveVideo = () => {
                   </div>
 
                   <div className="center-right">
-                    <div className="discrip-title">
+                    <div>
                       <p className="item-topic">EMBEDDED SOLUTION</p>
                       <p className="docu-topic">LIVE VIDEO BROADCASTING SOLUTIONS</p>
                     </div>
@@ -116,7 +116,7 @@ const LiveVideo = () => {
                   <p className="m-item-topic">EMBEDDED SOLUTION</p>
                   <p className="m-item-docu">LIVE VIDEO BROADCASTING SOLUTIONS</p>
                   
-                  <div className="m-underLine-area-detail">
+                  <div>
                     <p className="m-topic-underLine-detail" />
                   </div>
                 </div>

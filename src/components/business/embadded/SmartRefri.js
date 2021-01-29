@@ -38,7 +38,7 @@ const SmartRefri = () => {
                   </div>
 
                   <div className="center-right">
-                    <div className="discrip-title">
+                    <div>
                       <p className="item-topic">EMBEDDED SOLUTION</p>
                       <p className="docu-topic">SMART REFRIGERATOR SOLUTIONS CONTACT US</p>
                     </div>
@@ -126,7 +126,7 @@ const SmartRefri = () => {
                     <p className="m-item-topic">EMBEDDED SOLUTION</p>
                     <p className="m-item-docu">SMART REFRIGERATOR SOLUTIONS CONTACT US</p>
                     
-                    <div className="m-underLine-area-detail">
+                    <div>
                       <p className="m-topic-underLine-detail" />
                     </div>
                   </div>

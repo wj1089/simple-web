@@ -48,9 +48,6 @@ footer{
 position: relative;
 min-width: 1200px;
 height: 202px;
-align-items: center;
-justify-content: center;
-background-position:right center;
 background-color: #222222;
 }
 
@@ -279,10 +276,8 @@ height: 402px;
 position: relative;
 min-width:  1200px;
 width:  1200px;
-background-position:right center;
-justify-content: center;
-align-content: center;
 }
+
 
 .center-imageArea{
 position: relative;

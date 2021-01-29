@@ -57,117 +57,115 @@ const Patent = () => {
                 <div className="select-Button" href="/">PATENT</div>
               </div>
               <div className="center-patentArea">
-                <div className="center-patent">
-                  <div className="patent-topText">
-                    <h1>PATENT</h1>
-                    <div className="underLine-area">
-                      <p className="topic-underLine" />
-                    </div>
+                <div className="patent-topText">
+                  <h1>PATENT</h1>
+                  <div className="underLine-area">
+                    <p className="topic-underLine" />
                   </div>
+                </div>
 
 
-                  <div className="patent-imgArea">
-                    <tr className="patent-imgSize">
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={pefamServ} alt="pefam-service-patent" />
-                        <div className="icon-descrip">페팸서비스등록</div>
-                      </td>
+                <div className="patent-imgArea">
+                  <tr className="patent-imgSize">
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={pefamServ} alt="pefam-service-patent" />
+                      <div className="icon-descrip">페팸서비스등록</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={tradeSistem} alt="tradeSistem-patent" />
-                        <div className="icon-descrip">모듈 단위 업무 매매 시스템 및 방법</div>
-                      </td> 
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={tradeSistem} alt="tradeSistem-patent" />
+                      <div className="icon-descrip">모듈 단위 업무 매매 시스템 및 방법</div>
+                    </td> 
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={dualCamera} alt="dualCamera-patent" />
-                        <div className="icon-descrip">다중 카메라를 이용한 이미지 합성 장치 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={dualCamera} alt="dualCamera-patent" />
+                      <div className="icon-descrip">다중 카메라를 이용한 이미지 합성 장치 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={mesinSistem} alt="mesinSistem-patent" />
-                        <div className="icon-descrip">메신저 광고 서비스 시스템 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={mesinSistem} alt="mesinSistem-patent" />
+                      <div className="icon-descrip">메신저 광고 서비스 시스템 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={cameraManage} alt="cameraManage-patent" />
-                        <div className="icon-descrip">카메라를 이용한 단말 간 파일 관리 장치 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={cameraManage} alt="cameraManage-patent" />
+                      <div className="icon-descrip">카메라를 이용한 단말 간 파일 관리 장치 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={uiScreen} alt="uiScreen-patent" />
-                        <div className="icon-descrip">사용자 중심의 메인 화면 아이콘 구성 장치 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={uiScreen} alt="uiScreen-patent" />
+                      <div className="icon-descrip">사용자 중심의 메인 화면 아이콘 구성 장치 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={numNetwork} alt="numNetwork-patent" />
-                        <div className="icon-descrip">전화번호 기반 소셜 네트워크 서비스 시스템 및 방법</div>
-                      </td>
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={infoVirtual} alt="infoVirtual-patent" />
-                        <div className="icon-descrip">속성 정보를 이용한 전자화폐 관리시스템 및 방법</div>
-                      </td>
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={voteProduct} alt="voteProduct-patent" />
-                        <div className="icon-descrip">소비자 투표를 통해 상품 가격 할인을 제공하는 소셜 커머스 서비스 시스템 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={numNetwork} alt="numNetwork-patent" />
+                      <div className="icon-descrip">전화번호 기반 소셜 네트워크 서비스 시스템 및 방법</div>
+                    </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={infoVirtual} alt="infoVirtual-patent" />
+                      <div className="icon-descrip">속성 정보를 이용한 전자화폐 관리시스템 및 방법</div>
+                    </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={voteProduct} alt="voteProduct-patent" />
+                      <div className="icon-descrip">소비자 투표를 통해 상품 가격 할인을 제공하는 소셜 커머스 서비스 시스템 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={usepreview} alt="usepreview-patent" />
-                        <div className="icon-descrip">전화 용건 미리보기 서비스 제공 시스템 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={usepreview} alt="usepreview-patent" />
+                      <div className="icon-descrip">전화 용건 미리보기 서비스 제공 시스템 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={delayInfo} alt="delayInfo-patent" />
-                        <div className="icon-descrip">모바일 단말기를 이용한 대기 정보 서비스 제공 시스템 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={delayInfo} alt="delayInfo-patent" />
+                      <div className="icon-descrip">모바일 단말기를 이용한 대기 정보 서비스 제공 시스템 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={multiScreen} alt="multiScreen-patent" />
-                        <div className="icon-descrip">다양한 형태의 멀티스크린을 이용한 광고생성시스템 및 그 제어방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={multiScreen} alt="multiScreen-patent" />
+                      <div className="icon-descrip">다양한 형태의 멀티스크린을 이용한 광고생성시스템 및 그 제어방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={openTypeCumers} alt="openTypeCumers-patent" />
-                        <div className="icon-descrip">소비자 주도의 개방형-참여형 소셜 커머스 서비스 시스템 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={openTypeCumers} alt="openTypeCumers-patent" />
+                      <div className="icon-descrip">소비자 주도의 개방형-참여형 소셜 커머스 서비스 시스템 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={digiSubscript} alt="digiSubscript-patent" />
-                        <div className="icon-descrip">시각 장애인을 위한 디지털 점자 입출력 장치 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={digiSubscript} alt="digiSubscript-patent" />
+                      <div className="icon-descrip">시각 장애인을 위한 디지털 점자 입출력 장치 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={smartSearch} alt="smartSearch-patent" />
-                        <div className="icon-descrip">스마트 서치 시스템 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={smartSearch} alt="smartSearch-patent" />
+                      <div className="icon-descrip">스마트 서치 시스템 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={naviRoad} alt="naviRoad-patent" />
-                        <div className="icon-descrip">길 안내 서비스 시스템 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={naviRoad} alt="naviRoad-patent" />
+                      <div className="icon-descrip">길 안내 서비스 시스템 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={inputAdvr} alt="inputAdvr-patent" />
-                        <div className="icon-descrip">문자 입력기를 이용한 소셜 광고 서비스 시스템 및 방법</div>
-                      </td>
-                      
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={simuMotion} alt="simuMotion-patent" />
-                        <div className="icon-descrip">시뮬레이션 모션 데이터를 이용한 스마트 모션 슈트의 움직임 제어시스템 및 방법</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={inputAdvr} alt="inputAdvr-patent" />
+                      <div className="icon-descrip">문자 입력기를 이용한 소셜 광고 서비스 시스템 및 방법</div>
+                    </td>
+                    
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={simuMotion} alt="simuMotion-patent" />
+                      <div className="icon-descrip">시뮬레이션 모션 데이터를 이용한 스마트 모션 슈트의 움직임 제어시스템 및 방법</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={certifiMark} alt="certifiMark-patent" />
-                        <div className="icon-descrip">상품정보 제공장치 및 그 방법과 인증코드를 마킹하는 시스템</div>
-                      </td>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={certifiMark} alt="certifiMark-patent" />
+                      <div className="icon-descrip">상품정보 제공장치 및 그 방법과 인증코드를 마킹하는 시스템</div>
+                    </td>
 
-                      <td className="icon-outLine">
-                        <img className="icon-size" src={touchInput} alt="touchInput-patent" />
-                        <div className="icon-descrip">터치식 문자 입력 장치 및 방법</div>
-                      </td>
-                      
-                    </tr>
-                  </div>
+                    <td className="icon-outLine">
+                      <img className="icon-size" src={touchInput} alt="touchInput-patent" />
+                      <div className="icon-descrip">터치식 문자 입력 장치 및 방법</div>
+                    </td>
+                    
+                  </tr>
                 </div>
               </div>
             </div>
@@ -198,11 +196,9 @@ const Patent = () => {
                 <div className="m-center-contentArea-company">
 
                   <div className="m-center-topspaceArea">
-                    <div className="m-center-patentArea">
-                      <p className="m-center-title">PATENT</p>
-                      <div className="m-underLine-area">
-                        <p className="m-topic-underLine" />
-                      </div>
+                    <p className="m-center-title">PATENT</p>
+                    <div className="m-underLine-area">
+                      <p className="m-topic-underLine" />
                     </div>
                   </div>
 

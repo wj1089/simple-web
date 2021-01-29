@@ -2,269 +2,269 @@
 /* desktop */
 /* inSilde-center Layout */
 .outSilde-image{
-    position: absolute;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+position: absolute;
+width: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 
 /* center main content */
 .main-content{
-    width: 1200px;
-    height: 1315px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+width: 1200px;
+height: 1292px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 
 .content-area{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 180px;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 180px;
 }
 
 
 
 /* center inside content(top) */
 .inside-content{
-    position: relative;
-    width: 1200px;
-    margin-top: 144px;
+position: relative;
+width: 1200px;
+margin-top: 144px;
 }
 
 .inside-content .inside-top{
-    width: 100%;
-    height: 300px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 2;
+width: 100%;
+height: 300px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+z-index: 2;
 }
 
 .bToCorB{
-    width: 600px;
-    height: 300px;
-    opacity: 95%;
-    background-color: #ffffffff;
+width: 600px;
+height: 300px;
+opacity: 95%;
+background-color: #ffffffff;
 }
 
 .bToCorB-textArea{
-    width: 600px;
-    height: 170px;
-    text-align: left;
-    padding: 43px 0 0 28px;
-    
+width: 600px;
+height: 170px;
+text-align: left;
+padding: 43px 0 0 28px;
+
 }
 .bTob-topic{
-    width: 400px;
-    height: 37px;
-    margin: 0 320px 6px 0;
-    font-size: 28px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.32;
-    letter-spacing: normal;
-    text-align: left;
-    color: #d40b0b;
+width: 400px;
+height: 37px;
+margin: 0 320px 6px 0;
+font-size: 28px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.32;
+letter-spacing: normal;
+text-align: left;
+color: #d40b0b;
 }
 .bTob-words{
-    width: 400px;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #565656;
+width: 400px;
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #565656;
 }
 
 
 
 .patent{
-    width: 600px;
-    height: 300px;
-    background-color: #1e1e1e;
+width: 600px;
+height: 300px;
+background-color: #1e1e1e;
 }
 
 .patent-textArea{
-    width: 600px;
-    height: 170px;
-    text-align: left;
-    padding: 43px 0 0 28px;
-    
+width: 600px;
+height: 170px;
+text-align: left;
+padding: 43px 0 0 28px;
+
 }
 
 .patent-topic{
-    width: 52px;
-    height: 37px;
-    margin: 0 320px 6px 0;
-    font-size: 28px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.32;
-    letter-spacing: normal;
-    text-align: left;
-    color: #d40b0b;
+width: 52px;
+height: 37px;
+margin: 0 320px 6px 0;
+font-size: 28px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.32;
+letter-spacing: normal;
+text-align: left;
+color: #d40b0b;
 }
 .patent-words{
-    width: 400px;
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #e0e0e0;
+width: 400px;
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #e0e0e0;
 }
 
 .bToCorB-imgArea{
-    width: 600px;
-    height: 130px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0);
-    padding: 0px 20px 23px 0px;
+width: 600px;
+height: 130px;
+text-align: center;
+background-color: rgba(0, 0, 0, 0);
+padding: 0px 20px 23px 0px;
 }
 
 .center-web-embed{
-    width: 180px;
-    height: 108px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    float: right;
-    background-image: url('../../resourse/mainphoto/icon_b2b.png');
-    background-position: right top;
+width: 180px;
+height: 108px;
+background-size: cover;
+background-repeat: no-repeat;
+float: right;
+background-image: url('../../resourse/mainphoto/icon_b2b.png');
+background-position: right top;
 }
 .center-web-patent{
-    width: 180px;
-    height: 108px;
-    background-image: url('../../resourse/mainphoto/icon_patent.png');
-    float: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right top;
+width: 180px;
+height: 108px;
+background-image: url('../../resourse/mainphoto/icon_patent.png');
+float: right;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: right top;
 }
 
 /* center inside content(bottom) */
 .inside-content .inside-bottom{
-    height: 300px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+height: 300px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 
 .about-us{
-    width: 400px;
-    height: 300px;
-    padding: 43px 0px 20px 28px;
-    text-align: left;
-    background-color: #b80000;
+width: 400px;
+height: 300px;
+padding: 43px 0px 20px 28px;
+text-align: left;
+background-color: #b80000;
 }
 .aboutUs-textArea{
-    height: 189px;
+height: 189px;
 }
 
 
 
 .aboutUs-topic{
-    height: 37px;
-    margin: 0 0 11px 0;
-    font-size: 28px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.32;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
+height: 37px;
+margin: 0 0 11px 0;
+font-size: 28px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.32;
+letter-spacing: normal;
+text-align: left;
+color: #ffffff;
 }
 .aboutUs-words{
-    font-size: 16px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: left;
-    color: #e0e0e0;
+font-size: 16px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #e0e0e0;
 }
 
 .aboutUs-imgArea{
-    height: 48px;
-    margin-right: 20px;
+height: 48px;
+margin-right: 20px;
 }
 
 .aboutUs-imgSize{
-    height: 48px;
-    width: 98px;
-    float: right;
+height: 48px;
+width: 98px;
+float: right;
 }
 
 
 .inbotm-image{
-    height: 300px;
+height: 300px;
 }
 
 .inbotm-imgSize{
-    width: 400px;
-    height: 300px;
+width: 400px;
+height: 300px;
 }
 
 .contact{
-    width: 401px;
-    height: 300px;
-    padding: 42px 88px 42px;
-    background-color: #d8d5d4;
+width: 401px;
+height: 300px;
+padding: 42px 88px 42px;
+background-color: #d8d5d4;
 }
 
 .content-imgSize{
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
-    color: #9e9e9e;
+text-align: center;
+vertical-align: middle;
+align-items: center;
+color: #9e9e9e;
 }
 .content-imgSize.material-icons{
-    align-items: center;
-    vertical-align: middle;
-    width: 100px;
-    border: solid 1px #cccccc;
+align-items: center;
+vertical-align: middle;
+width: 100px;
+border: solid 1px #cccccc;
 }
 
 .content-communi{
-    width: 122px;
-    height: 24px;
-    margin: 3px 51px 6px;
-    font-size: 18px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: #9e9e9e; 
+width: 122px;
+height: 24px;
+margin: 3px 51px 6px;
+font-size: 18px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+color: #9e9e9e; 
 }
 
 .content-detail{
-    height: 23px;
-    margin-top: 4px;
-    font-size: 17px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.35;
-    letter-spacing: normal;
-    color: #757575;
+height: 23px;
+margin-top: 4px;
+font-size: 17px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.35;
+letter-spacing: normal;
+color: #757575;
 }
 
 .home-icon{
-    width: 24px;
-    height: 24px;
-    color: #9e9e9e;
+width: 24px;
+height: 24px;
+color: #9e9e9e;
 }

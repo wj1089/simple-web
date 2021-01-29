@@ -48,7 +48,7 @@ const Igre = () => {
                   </div>
 
                   <div className="center-right">
-                    <div className="discrip-title">
+                    <div>
                       <p className="item-topic">O2O PLATFORM</p>
                       <p className="docu-topic">아이그레</p>
                     </div>
@@ -137,7 +137,7 @@ const Igre = () => {
                   <p className="m-item-topic">O2O PLATFORM</p>
                   <p className="m-item-docu">아이그레</p>
                   
-                  <div className="m-underLine-area-detail">
+                  <div>
                     <p className="m-topic-underLine-detail" />
                   </div>
                 </div>

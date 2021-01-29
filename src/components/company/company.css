@@ -58,15 +58,8 @@
   padding: 142px 0 138px 0;
   height: 614px;
   justify-content: center;
-  /* align-items: center; */
   display: flex;
 }
-.center-about{
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .center-aboutText{
   font-size: 28px;
   font-weight: normal;
@@ -96,10 +89,8 @@ padding-bottom: 38.5px;
 
 
 .center-commentArea{
-  /* height: 748px; */
   padding: 125px 0 69px 0;
   justify-content: center;
-  /* align-items: center; */
   display: flex;
 }
 .center-commentText{

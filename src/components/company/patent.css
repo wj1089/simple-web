@@ -1,46 +1,4 @@
-/*------------------------------------------
-Responsive Grid Media Queries - 1920, 1200, 1020
-1920-1024   - desktop (default grid)
-1200        - center area
---------------------------------------------*/
-
-.full-screen .lay-mid-firstb{
-    width: 100%;
-    height: 413px;
-
-}
-.full-screen .lay-mid-secondb{
-    width: 100%;
-    height: 413px;
-}
-
-.full-screen .lay-mid-thirdb{
-    width: 100%;
-    height: 810px;
-}
-.full-screen .lay-mid-forthb{
-    width: 100%;
-    height: 203px;
-}
-.full-screen .lay-mid-lastb{
-    width: 100%;
-    height: 203px;
-}
-
-
 /* inSilde-center Layout */
-.screen-centerArea{
-    position: relative;
-    min-width:  1200px;
-    width:  1200px;
-    background-position:right center;
-}
-/* .center-patent{
-    position: absolute;
-    width: 100%;
-    height: 2963px;
-} */
-
 .patent-topText{
     padding-top: 144px;
 }
@@ -77,7 +35,7 @@ Responsive Grid Media Queries - 1920, 1200, 1020
 /* center content */
 .center-patentArea{
     width: 1200px;
-    display: flex;
+    /* display: flex; */
     padding-bottom: 100px;
 }
 
@@ -85,14 +43,6 @@ Responsive Grid Media Queries - 1920, 1200, 1020
     width: 1200px;
     display: inline-flex;
 }
-
-/* .patent-img-row{
-    display: flex;
-    width: 1197px;
-    height: 456px;
-    margin: 20px 0 20px;
-    background-color: #ffffff;
-} */
 
 .patent-imgSize{
     display: inline-block;

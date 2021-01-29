@@ -38,7 +38,7 @@ const SmartCar = () => {
                   </div>
 
                   <div className="center-right">
-                    <div className="discrip-title">
+                    <div>
                       <p className="item-topic">EMBEDDED SOLUTION</p>
                       <p className="docu-topic">SMART CAR DVR SOLUTIONS</p>
                     </div>
@@ -127,7 +127,7 @@ const SmartCar = () => {
                     <p className="m-item-topic">EMBEDDED SOLUTION</p>
                     <p className="m-item-docu">SMART CAR DVR SOLUTIONS</p>
                     
-                    <div className="m-underLine-area-detail">
+                    <div>
                       <p className="m-topic-underLine-detail" />
                     </div>
                   </div>

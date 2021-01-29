@@ -48,7 +48,7 @@ const MotionSen = () => {
                   </div>
 
                   <div className="center-right">
-                    <div className="discrip-title">
+                    <div>
                       <p className="item-topic">EMBEDDED SOLUTION</p>
                       <p className="docu-topic">MOTION SENSING CONTROLLER SOLUTIONS</p>
                     </div>
@@ -160,7 +160,7 @@ const MotionSen = () => {
                     <p className="m-item-topic">EMBEDDED SOLUTION</p>
                     <p className="m-item-docu">MOTION SENSING CONTROLLER SOLUTIONS</p>
                     
-                    <div className="m-underLine-area-detail">
+                    <div>
                       <p className="m-topic-underLine-detail" />
                     </div>
                   </div>

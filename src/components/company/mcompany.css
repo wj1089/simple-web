@@ -177,9 +177,7 @@
     width: 264px;
     height: 90px;
     margin: 0 73px 0 73px;
-    /* overflow: hidden; */
     display: flex;
-    /* justify-content: center; */
     background-color: #ffffff;
 }
 

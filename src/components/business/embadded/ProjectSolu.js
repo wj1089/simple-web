@@ -38,7 +38,7 @@ const ProjectSolu = () => {
                   </div>
 
                   <div className="center-right">
-                    <div className="discrip-title">
+                    <div>
                       <p className="item-topic">EMBEDDED SOLUTION</p>
                       <p className="docu-topic">PROJECTOR SOLUTIONS</p>
                     </div>
@@ -128,7 +128,7 @@ const ProjectSolu = () => {
                   <p className="m-item-topic">EMBEDDED SOLUTION</p>
                   <p className="m-item-docu">PROJECTOR SOLUTIONS</p>
                   
-                  <div className="m-underLine-area-detail">
+                  <div>
                     <p className="m-topic-underLine-detail" />
                   </div>
                 </div>

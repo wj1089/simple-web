@@ -1,20 +1,5 @@
-/* ------ patent 가변 사이즈 ------- */
-
-.lay-mobile-first-patent{
-
-
-}
-
 
 /* inSilde-center Layout */
-.screen-centerArea{
-    position: relative;
-    min-width:  1200px;
-    width:  1200px;
-    background-position:right center;
-}
-
-
 .patent-topText{
     padding-top: 144px;
 }
@@ -50,7 +35,6 @@
 }
 
 .m-patent-smallWord{
-    font-family: ;
     font-size: 15.5px;
     font-weight: normal;
     font-stretch: normal;
@@ -65,20 +49,11 @@
 
 
 /* center content */
-.m-center-patentArea{
-    /* background-color: beige; */
-}
-
 .m-patent-imgArea{
     height: auto;
     margin-bottom: 172px;
     display: inline-flex;
 }
-
-/* .m-patent-img-row{
-    margin: 28px 0 20px;
-    background-color: #ffffff;
-} */
 
 .m-patent-imgSize{
     display: inline-block;

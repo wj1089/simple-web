@@ -122,7 +122,7 @@ const Company = () => {
             </div>
 
             <div className="center-aboutArea">
-              <div className="center-about">
+              <div>
                 <h1>ABOUT US</h1>
                 <div className="underLine-area">
                   <p className="topic-underLine" />
