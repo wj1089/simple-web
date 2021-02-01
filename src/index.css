@@ -57,14 +57,11 @@ text-decoration: none;
 outline: none;
 color: black;
 }
-
-
 .a:hover{
 color: none;
 text-decoration: none;
 outline: none;
 }
-
 .full-screen{
 display: flex;
 position: relative;

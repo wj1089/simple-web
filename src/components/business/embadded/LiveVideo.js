@@ -57,7 +57,7 @@ const LiveVideo = () => {
                       <div className="discrip-foot">
                         <span className="foot-title">
                           <p className="foot-date">DATE</p>
-                          <p className="foot-dateWord">2016-11-11</p>
+                          <p className="foot-dateWord">2021-02-01</p>
                         </span>
 
                         <span className="foot-title">
@@ -136,7 +136,7 @@ const LiveVideo = () => {
                 <div className="m-foot-info">
                   <span className="m-foot-fisrt">
                     <p className="m-foot-date">DATE</p>
-                    <p className="m-foot-dateWord">2016-11-11</p>
+                    <p className="m-foot-dateWord">2021-02-01</p>
                   </span>
 
                   <span className="m-foot-second">
